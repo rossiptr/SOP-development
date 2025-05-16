@@ -1,4 +1,3 @@
-
 # NTUST Internship Standard Operating Procedure (SOP)
 
 ## Table of Contents
@@ -15,6 +14,7 @@
   - [4. Communication Protocols](#4-communication-protocols)
     - [4.1 Channels of Communication](#41-channels-of-communication)
     - [4.2 Etiquette and Conduct](#42-etiquette-and-conduct)
+    - [4.3 Confidentiality and Information Security](#43-confidentiality-and-information-security)
   - [5. Industrial Internship Policy](#5-industrial-internship-policy)
     - [5.1 Background Knowledge and Training](#51-background-knowledge-and-training)
     - [5.2 Commitment Expectations](#52-commitment-expectations)
@@ -110,6 +110,10 @@ This document establishes the operational standards for interns participating in
   2. Acknowledge all messages and instructions with responses or reactions.
   3. Use **private messages only for personal matters**; technical questions must be raised publicly.
   4. Acknowledge broadcast announcements via emoji or stickers in the group chat.
+
+### 4.3 Confidentiality and Information Security
+
+- Interns are strictly prohibited from disclosing any internal laboratory information—including research plans, progress updates, or lab conditions—to any external parties outside the lab without explicit authorization from their mentor or supervisor. Breaches of confidentiality may result in immediate termination of the internship and further disciplinary action.
 
 ---
 
