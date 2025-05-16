@@ -1,100 +1,152 @@
-# Internship Standard Operational Procedure (SOP)
 
-- [Internship Standard Operational Procedure (SOP)](#internship-standard-operational-procedure-sop)
-    - [1. Probation](#1-probation)
-      - [Steps to Follow:](#steps-to-follow)
-    - [2. Internship](#2-internship)
-      - [Initial Checklist:](#initial-checklist)
-      - [⚠️ RULES:](#️-rules)
-    - [3. End of Internship](#3-end-of-internship)
+# NTUST Internship Standard Operating Procedure (SOP)
 
-
-Here you will find our standard operational procedure for your internship in Taiwan. We have several stages to be done during the process:
-1. [**Probation**](#1-probation): A simulation stage for the working style in BMW Lab or our partner companies.
-2. [**Internship**](#2-internship): Rules to be followed after you passed the `probation stage`.
-3. [**End of Internship**](#3-end-of-internship): Output delivarance (documentation, slides, demo, paper draft, etc.) to BMW Lab or our partner companies.
-
-> [!WARNING]
-> “Without a doubt, you will face many challenges during the internship. But with perseverance, you can achieve great things!” 
-> 
-> – Prof. Ray-Guang Cheng
-
----
-
-### 1. Probation
-
-The probation period begins **the moment you're accepted** into the internship program and lasts for **3-4 months** (negotiable). Your performance during probation will **determine whether you’re accepted or rejected** for the onsite internship in our lab.
-
-#### Steps to Follow:
-
-1. Create your personal Trello card - [template](https://trello.com/c/u9sGqbL3 "Trello Template").
-2. Finish the **1st Checklist** within **1 week***.
-3. **Find a mentor** to discuss your milestones and topic.
-4. Write your **Milestones** (monthly targets) in the **Checklist Section**, following the provided template.
-5. Write your daily updates for the intern project and class/coursework in the **Activity Section**, following the [template](https://trello.com/c/u9sGqbL3#comment-659d890649307cc45b86ce29 "Trello Activity Template").
-6. Input your work in Trello using hyperlinks: [Example Document](https://drive.google.com/file/d/1OaBAXgMUCvCUQz4GsodeCcIdW4o-_wWb/view?usp=sharing "SmartCard Inline").
-
-> [!NOTE] 
-> Deadlines can be negotiated if you're in exam week (discuss with your mentor).
+## Table of Contents
+- [NTUST Internship Standard Operating Procedure (SOP)](#ntust-internship-standard-operating-procedure-sop)
+  - [Table of Contents](#table-of-contents)
+  - [1. Introduction](#1-introduction)
+  - [2. Internship Program Structure](#2-internship-program-structure)
+    - [2.1 Internship Phases](#21-internship-phases)
+    - [2.2 Topic Progression](#22-topic-progression)
+  - [3. Internship Documentation](#3-internship-documentation)
+    - [3.1 Repository and File Structure](#31-repository-and-file-structure)
+    - [3.2 Daily Log Format](#32-daily-log-format)
+    - [3.3 Weekly Reporting](#33-weekly-reporting)
+  - [4. Communication Protocols](#4-communication-protocols)
+    - [4.1 Channels of Communication](#41-channels-of-communication)
+    - [4.2 Etiquette and Conduct](#42-etiquette-and-conduct)
+  - [5. Industrial Internship Policy](#5-industrial-internship-policy)
+    - [5.1 Background Knowledge and Training](#51-background-knowledge-and-training)
+    - [5.2 Commitment Expectations](#52-commitment-expectations)
+  - [6. Completion and Final Deliverables](#6-completion-and-final-deliverables)
+    - [6.1 Required Submissions](#61-required-submissions)
+    - [6.2 Final Assessments](#62-final-assessments)
 
 ---
 
-### 2. Internship
-#### Initial Checklist:
-To facilitate organization and collaboration among interns at BMW Lab, please follow these steps:
+## 1. Introduction
 
-1. **Create a branch** using the template `[year]-[Program Name]-[Intern ID]-[Name]`.  
-   Example: `2019-TEEP-22-Ian`.
-2. **Edit the README.md** on your branch with the profile information you provided in your Trello card.
-3. **Organize your study notes** by creating folders for different topics or projects.
-4. **Create `.md` files** for your study notes, ensuring proper structure and clarity.
-
-This applies to **remote probation**, **remote internship**, and **onsite internship**. Any violation will result in **immediate disqualification**.
-
-#### ⚠️ RULES:
-1. ⚠️ **DO NOT** take any other internship **without permission** during the **probation to the end of your internship** duration.
-2. 🗓️ Work from **Monday to Friday, 🕰️ `09:00 - 17:00`**.
-3. 🗳️ **Check-in** on your Trello card Activity 🕰️ **before `09:00`**, and write your `daily plan` or `Backlog`.
-4. 🗳️ **Check-out** on your Trello card Activity 🕰️ **after `17:00`**, attaching a 🔗 **`hyperlink result`** as evidence of your work.
-5. 📝 Document your project work on the [BMW Internship GitHub](https://github.com/bmw-ece-ntust/internship "BMW Internship GitHub") - follow the [Instructions](https://github.com/bmw-ece-ntust/internship?tab=readme-ov-file#1-introduction "BMW GitHub Instructions").
-6. **Weekly meetings** with your mentor:
-   - 📝 Write the meeting minutes, including **action items** for the next week, on your Trello card activity.
-   - **Optional**: Daily stand-ups are allowed if agreed upon with your mentor. Weekly meetings are **highly recommended**.
-
-**Tip**: Create a separate Trello card to track weekly meetings if necessary.
+This document establishes the operational standards for interns participating in programs under NTUST supervision, including research-based and industry-based internships. The SOP aims to maintain professional integrity, promote accountability, and enhance technical and collaborative experiences.
 
 ---
-### 3. End of Internship
 
-1. Verify the **deliverables** in your Trello card with your mentor.
-2. Finish all tasks on your Trello card checklists.
-3. Share your **internship experience** in two formats:
-   - **Text**: Write it in Google Docs and share the link in your Trello card Activity section.
-   - **Video**: Record a testimony and upload it to [YouTube](http://youtube.com "YouTube").
-4. Complete the [TEEP Survey Form](https://docs.google.com/forms/d/e/1FAIpQLSdWLiwlq39icJ-ulSeVIIHkzcu01MwK-xSO_9tMzItofZt0hQ/viewform "TEEP Survey Form").
-5. Complete the [Mentors Assessment Form](https://docs.google.com/forms/d/e/1FAIpQLSeJ5ZNKkrz27HFsO2ZFiU-mB2DwD8yFyf45zqdxJqjnnyWVLA/viewform "Mentor Assessment Form").
-6. Obtain a certificate for your internship (**provide a template if required**).
+## 2. Internship Program Structure
 
-**Internship Outcome**:
+### 2.1 Internship Phases
 
-1. Source code weekly/daily (during probation/onsite) update on GitHub
-2. Documentation weekly/daily update* on GitHub
-    - **Weekly** for probation 
-    - **Daily** for onsite
-3. IEEE format paper report, detailing the research and development carried out during the internship. (Tips for [paper writing]())
-4. Complete source code of the project was uploaded to GitHub with proper documentation
-5. Project documentation:
-   1. System architecture diagram to represent the overall design and component interaction.
-   2. Message sequence chart + Call Flow diagram to illustrate the flow of communication between system modules (Linked with its line of code).
-   3. Installation guide to assist users in setting up and running the project.
-   4. Demo video to showcase the project’s features and functionality.
-6. Testimonial for TEEP Program: 
-   1. Youtube Promotional video to share your experience and insights about the TEEP program.
-   2. Summary in Google Docs for government report.
+1. **Probation Period**
+   - Duration: 3–4 months (negotiable).
+   - Objective: To assess suitability for formal internship continuation.
+   - Tasks include Trello setup, daily activity logging, and mentor-assigned milestones.
 
-Prepare the following for your final presentation:
+2. **Formal Internship**
+   - Commences post-probation, upon mentor approval.
+   - Requires full-time commitment: Monday to Friday, 09:00–17:00 (Taiwan Time).
+   - Parallel internship engagements are **prohibited** without formal approval.
 
-- Slides
-- [IEEE Template](https://www.overleaf.com/gallery/tagged/ieee-official "IEEE Template")
-- [Typical Research Thesis Structure](https://hackmd.io/LKNRZXIaRnqh36M5Ly6FXQ#Typical-Research-Thesis-Structure "Research Thesis Structure")
-- [Research Abstract](https://hackmd.io/LKNRZXIaRnqh36M5Ly6FXQ#Research-Abstract "Research Abstract")
+3. **End of Internship**
+   - Evaluation includes submission of deliverables, presentation of results, and submission of reflective documentation (e.g., testimonial, IEEE paper).
+
+### 2.2 Topic Progression
+
+- If an assigned research/technical topic is completed, interns are **required to proactively request a new topic** via the designated LINE group.
+- Lack of initiative may affect continuation status or final assessment.
+
+---
+
+## 3. Internship Documentation
+
+### 3.1 Repository and File Structure
+
+- Interns must establish a GitHub repository and maintain the following:
+  - `README.md` with personal profile and project summary.
+  - Topic-based folders for documentation and source files.
+  - `./daily-log.md` for detailed progress tracking.
+
+### 3.2 Daily Log Format
+
+```markdown
+[Table of Contents]
+
+### [yyyy-mm-dd]  
+*Short-term Goals*:  
+1. [Milestone 1](Plan reference link in GitHub)  
+2. [Milestone 2](Plan reference link in GitHub)  
+
+*Daily Logs*:  
+- `hh:mm-hh:mm`: [Milestone 1 - checklist 1](report reference link in GitHub)  
+- `hh:mm-hh:mm`: [Milestone 1 - checklist 2](report reference link in GitHub)  
+- `hh:mm-hh:mm`: [Milestone 2 - checklist 1](report reference link in GitHub)  
+```
+
+### 3.3 Weekly Reporting
+
+- Interns must summarize weekly progress by:
+  - Updating Trello (activity and status log).
+  - Posting a weekly report in the designated LINE group **every Friday by 15:00 (Taiwan Time)** in the following format:
+
+🔧 This week’s work:  
+⚙️ Problems faced:  
+✅ Milestones achieved:  
+🧭 Plan for next week:  
+🔗 GitHub link (installation/user guide):
+
+---
+
+## 4. Communication Protocols
+
+### 4.1 Channels of Communication
+
+1. **Trello** – Used for daily check-ins, task tracking, and progress summaries.  
+2. **GitHub** – Platform for hosting code, documentation, and daily logs.  
+3. **LINE Group**:  
+   - Main Lab Group: For thesis and academic research.  
+   - Company Group: For industrial project discussions.
+
+### 4.2 Etiquette and Conduct
+
+- Interns must:
+  1. Actively engage in technical discussions within the LINE group to foster peer learning.
+  2. Acknowledge all messages and instructions with responses or reactions.
+  3. Use **private messages only for personal matters**; technical questions must be raised publicly.
+  4. Acknowledge broadcast announcements via emoji or stickers in the group chat.
+
+---
+
+## 5. Industrial Internship Policy
+
+### 5.1 Background Knowledge and Training
+
+- Host companies are expected to provide sufficient technical background and mentorship.  
+- If the intern fails to submit a background knowledge study report related to the industrial topic, **NTUST reserves the right to revoke the internship opportunity**.
+
+### 5.2 Commitment Expectations
+
+- Interns are prohibited from participating in concurrent internships unless formally approved.
+
+---
+
+## 6. Completion and Final Deliverables
+
+### 6.1 Required Submissions
+
+Upon completion of the internship, each intern must submit:
+
+- GitHub repository including:
+  - Source code
+  - Installation/user guides
+  - System diagram and call flow
+  - Demo video and walkthrough
+- Trello card with all checklists and weekly logs
+- Daily logs (`./daily-log.md`)
+- Optional: IEEE-formatted technical paper draft
+- Final testimonial:
+  - Written (Google Docs)
+  - Optional video (YouTube)
+
+### 6.2 Final Assessments
+
+Interns must also complete:
+
+- [TEEP Survey Form](https://docs.google.com/forms/d/e/1FAIpQLSdWLiwlq39icJ-ulSeVIIHkzcu01MwK-xSO_9tMzItofZt0hQ/viewform)  
+- [Mentor Assessment Form](https://docs.google.com/forms/d/e/1FAIpQLSeJ5ZNKkrz27HFsO2ZFiU-mB2DwD8yFyf45zqdxJqjnnyWVLA/viewform)
