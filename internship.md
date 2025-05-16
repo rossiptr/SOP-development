@@ -29,6 +29,9 @@
 
 This document establishes the operational standards for interns participating in programs under NTUST supervision, including research-based and industry-based internships. The SOP aims to maintain professional integrity, promote accountability, and enhance technical and collaborative experiences.
 
+> [!NOTE]
+> Regulation stated in this docs will be be effective from the published date and may be updated at any time.
+
 ---
 
 ## 2. Internship Program Structure
