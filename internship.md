@@ -1,7 +1,8 @@
-# NTUST Internship Standard Operating Procedure (SOP)
+# BMW-Lab NTUST Internship Standard Operating Procedure (SOP)
 
 ## Table of Contents
-- [NTUST Internship Standard Operating Procedure (SOP)](#ntust-internship-standard-operating-procedure-sop)
+
+- [BMW-Lab NTUST Internship Standard Operating Procedure (SOP)](#bmw-lab-ntust-internship-standard-operating-procedure-sop)
   - [Table of Contents](#table-of-contents)
   - [1. Introduction](#1-introduction)
   - [2. Internship Program Structure](#2-internship-program-structure)
@@ -34,18 +35,25 @@ This document establishes the operational standards for interns participating in
 
 ### 2.1 Internship Phases
 
+>[!WARNING]
+> - Internship outside of BMW Lab NTUST is **not** allowed without prior approval from the mentor.
+> - Interns are **not** allowed to work on any other projects during the internship period without prior approval from the mentor.
+
+>[!CAUTION]
+> Any violation of these policies may result in immediate termination of the internship.
+
 1. **Probation Period**
-   - Duration: 3–4 months (negotiable).
+   - Duration: 1–3 months (negotiable, based on your performance).
    - Objective: To assess suitability for formal internship continuation.
    - Tasks include Trello setup, daily activity logging, and mentor-assigned milestones.
 
-2. **Formal Internship**
+2. **On-site Internship**
    - Commences post-probation, upon mentor approval.
    - Requires full-time commitment: Monday to Friday, 09:00–17:00 (Taiwan Time).
    - Parallel internship engagements are **prohibited** without formal approval.
 
 3. **End of Internship**
-   - Evaluation includes submission of deliverables, presentation of results, and submission of reflective documentation (e.g., testimonial, IEEE paper).
+   - Evaluation includes submission of deliverables, presentation of results, and submission of reflective documentation (e.g., testimonial, IEEE paper) described in [Final Deliverables section](#6-completion-and-final-deliverables).
 
 ### 2.2 Topic Progression
 
@@ -85,11 +93,13 @@ This document establishes the operational standards for interns participating in
   - Updating Trello (activity and status log).
   - Posting a weekly report in the designated LINE group **every Friday by 15:00 (Taiwan Time)** in the following format:
 
+```markdown
 🔧 This week’s work:  
 ⚙️ Problems faced:  
 ✅ Milestones achieved:  
 🧭 Plan for next week:  
 🔗 GitHub link (installation/user guide):
+```
 
 ---
 
@@ -113,7 +123,10 @@ This document establishes the operational standards for interns participating in
 
 ### 4.3 Confidentiality and Information Security
 
-- Interns are strictly prohibited from disclosing any internal laboratory information—including research plans, progress updates, or lab conditions—to any external parties outside the lab without explicit authorization from their mentor or supervisor. Breaches of confidentiality may result in immediate termination of the internship and further disciplinary action.
+- Interns are strictly prohibited from disclosing any internal laboratory information—including research plans, progress updates, or lab conditions—to any external parties outside the lab without explicit authorization from their mentor or supervisor.
+
+> [!CAUTION]
+> Breaches of confidentiality may result in immediate termination of the internship and further disciplinary action.
 
 ---
 
@@ -137,16 +150,23 @@ This document establishes the operational standards for interns participating in
 Upon completion of the internship, each intern must submit:
 
 - GitHub repository including:
-  - Source code
-  - Installation/user guides
-  - System diagram and call flow
-  - Demo video and walkthrough
-- Trello card with all checklists and weekly logs
-- Daily logs (`./daily-log.md`)
-- Optional: IEEE-formatted technical paper draft
-- Final testimonial:
-  - Written (Google Docs)
-  - Optional video (YouTube)
+  - Source code + documentation (You may use [Doxygen](https://doxygen.nl/#google_vignette) or [Sphinx](https://www.sphinx-doc.org/en/master/))
+  - Installation/user guides (Example: [NVIDIA CUDA installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/))
+  - System Architecture diagram, MSC + call flow, Flowchart, etc.
+  - [Project Demo video](https://u.pcloud.link/publink/show?code=kZcjSh5ZycYwg6EvFOh21AV5jdbJNRMAX097) (+ subtitle in English using .srt)
+- Trello card with all checklists:
+- Daily logs:
+  - Trello comments
+  - GitHub in `./daily-log.md` on your branch
+- Final report:
+  - Project report in [IEEE-formatted](https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn) ([Lab template](https://www.overleaf.com/project/6204f5800e163b89b70be498))
+  - Testimonial in [Google Docs](https://drive.google.com/drive/folders/1LUXsHmH-f80VqcJI55XWuzvm6z3VvgyA?usp=sharing)
+- [Final Videos](https://u.pcloud.link/publink/show?code=kZcjSh5ZycYwg6EvFOh21AV5jdbJNRMAX097):
+  - Project demo video (~5 minutes)
+  - Promotional & Testimonial video (~2 minutes per person)
+
+> [!NOTE]
+> Your internship report & Letter of Comlpletion will be issued only after the successful submission of all required documents.
 
 ### 6.2 Final Assessments
 
