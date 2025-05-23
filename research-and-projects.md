@@ -58,6 +58,57 @@ Below is the checklist for the handover process:
 - [ ] [slide](Google Slides or Overleaf link) (presentation slides for project defense/exam)
 - [ ] [Thesis book](Overleaf link) (full thesis document in Overleaf, ready for submission)
 
+> [!TIP]
+> Present your thesis slide in weekly meeting report since the beginning of 2nd year.
+
+## 6. Graduation Procedure
+
+### Qualifications
+
+Master students who meet graduation regulations can apply for the oral defense. The deadlines are:
+
+- Spring semester: 31th January
+- Fall semester: 31th July
+
+> [!IMPORTANT]
+> Please follow the [NTUST academic calendar](https://www.academic.ntust.edu.tw/p/412-1048-8756.php?Lang=en).
+
+### Procedures
+
+- [ ] Complete “[The oral defense application of Master degree](https://ece.ntust.edu.tw/var/file/17/1017/img/Master_s_Academic_Degree_Examination_Orals_Recommend_Application_Form_1131008.docx)” (download from “[Forms and Links](https://ece.ntust.edu.tw/p/412-1017-1400.php?Lang=en)”)
+- [ ] Download the required documents at the Student Information System ([link](https://www.academic.ntust.edu.tw/p/412-1048-8234.php?Lang=en))
+- [ ] Upload the digital thesis at the [Taiwan Tech Electronic Thesis System](https://etheses.lib.ntust.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=PrUzwJ/webmge?switchlang=en)
+- [ ] Print the “e-Thesis Authorization Form” after uploading your thesis, then proceed with the leaving procedure
+
+#### Before Oral Defense 
+
+> [!CAUTION]
+> The following steps must be completed **at least 2 weeks before the oral defense**.
+
+- [ ] Prepare one copy of “Qualification Form by Master Degree Examination Committee”
+- [ ] Print copies of “Oral Defense Evaluation Form” for all committee members
+- [ ] Bring the “Receipt of Payment” (provided before the oral defense)
+
+#### After Oral Defense
+
+- [ ] Submit the “Qualification Form”, “Evaluation Form”, "Thesis Academic Ethics and Authentication of Originality Statement", and “Receipt of Payment” to the ECE office
+- [ ] Attach the “Recommendation Form” and “Qualification Form” with the thesis
+- [ ] Send the PDF file of **Moodle Turnitin** Result by e-mail
+
+> *To apply for delayed public access, download the “Application for Embargo of Thesis/Dissertation” and attach it to the first page of the thesis.*
+
+### Leaving Procedure
+
+**Application Deadline:** The date before the registration deadline for the next semester. (Please follow the school calendar.)
+
+- [ ] Upload digital thesis and submit one printed copy to the library
+- [ ] Download and complete the [School Leaving Application Form](https://www.academic.ntust.edu.tw/p/412-1048-8234.php?Lang=en) via the Student Information System
+- [ ] Submit a soft and yellow cover of the thesis to the department office
+- [ ] Submit a printed copy of the thesis and the signed e-Thesis Authorization Form (NTUST & NCL) to the library
+- [ ] Complete all steps in the School Leaving Application Form and collect your diploma at the Office of Graduate Studies
+
+> For the latest forms and deadlines, always refer to the official [ECE NTUST Graduation Procedure page](https://ece.ntust.edu.tw/p/412-1017-10490.php?Lang=en).
+
 ---
 
 > Adhering to this SOP ensures that research and development projects are well-documented, maintainable, and easily transferable to new team members.
