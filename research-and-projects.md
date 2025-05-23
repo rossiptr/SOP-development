@@ -2,6 +2,22 @@
 
 This Standard Operating Procedure (SOP) outlines the requirements and best practices for research and development (R&D) projects in the lab. All developers and researchers must adhere to the following guidelines to ensure quality, reproducibility, and smooth handover.
 
+- [Research and Projects Development SOP](#research-and-projects-development-sop)
+  - [1. Repository Management](#1-repository-management)
+  - [2. Source Code Standards](#2-source-code-standards)
+  - [3. Documentation Requirements](#3-documentation-requirements)
+  - [4. Installation and User Guide](#4-installation-and-user-guide)
+  - [5. Laboratory Leaving Procedure](#5-laboratory-leaving-procedure)
+    - [5.1 Projects Handover](#51-projects-handover)
+    - [5.2 Thesis Handover](#52-thesis-handover)
+  - [6. Graduation Procedure](#6-graduation-procedure)
+    - [6.1 Qualifications](#61-qualifications)
+    - [Procedures](#procedures)
+      - [Before Oral Defense](#before-oral-defense)
+      - [After Oral Defense](#after-oral-defense)
+    - [Leaving Procedure](#leaving-procedure)
+
+
 ---
 
 ## 1. Repository Management
