@@ -22,16 +22,14 @@ This Standard Operating Procedure (SOP) outlines the requirements and best pract
 
 ## 1. Repository Management
 
-- **Create a private GitHub repository** for each R&D project.
-- **Update the repository daily** with source code, documentation, and progress logs.
+- **Create a private GitHub repository** to upload your project. Confirm with manager.
+- **Maintain the repository** with source code, documentation, and progress logs.
 - Ensure all code and documentation are pushed to the repository before the end of each workday.
 
 ## 2. Source Code Standards
 
-- All source code must follow these standards:
+- All source code suggest follow these standards:
   - Use clear, consistent naming conventions (e.g., PEP8 for Python, Google Style for C++/Java).
-  - Write modular, reusable functions and classes.
-  - Include error handling and input validation.
   - Use version control best practices (meaningful commit messages, frequent commits, use of branches for features/fixes).
   - Remove unused code and files before each major commit.
 
@@ -43,10 +41,20 @@ This Standard Operating Procedure (SOP) outlines the requirements and best pract
 - **Class Diagram:**
   - Generate and include a class diagram in the documentation (Doxygen/Sphinx can be configured to do this).
 
-## 4. Installation and User Guide
+## 4. Core materials
 
+- README that consists:
+  - Folder structure
+  - System architecture
+  - How to run your program
+  - For AIML:
+    - Dataset
+    - Dataset information/spec
+    - Model generated from training sample data
+    - Step-by-step to train the model including parameter and hyperparameter used
 - Provide a detailed **installation guide** (refer to [NVIDIA CUDA installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)).
 - Include a **user manual** explaining how to use the tool, with example commands, input/output formats, and troubleshooting tips.
+ 
 
 ---
 
