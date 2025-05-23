@@ -39,20 +39,22 @@ This document establishes the operational standards for interns participating in
 ### 2.1 Internship Phases
 
 >[!CAUTION]
+>
 > Any violation of following policies may result in immediate termination of the internship.
 
 >[!WARNING]
+>
 > - Internship outside of BMW Lab NTUST is **not** allowed without prior approval from the mentor.
 > - Interns are **not** allowed to work on any other projects during the internship period without prior approval from the mentor.
 
 1. **Probation Period**
 
->[!TIPS]
+>[!TIP]
 > We suggest the interns can start the probation period before the active semester started in your university.
 
-   - Duration: 1–3 months (negotiable, based on your performance).
-   - Objective: To assess suitability for formal internship continuation.
-   - Tasks include Trello setup, daily activity logging, and mentor-assigned milestones.
+- Duration: 1–3 months (negotiable, based on your performance).
+- Objective: To assess suitability for formal internship continuation.
+- Tasks include Trello setup, daily activity logging, and mentor-assigned milestones.
 
 3. **On-site Internship**
    - Commences post-probation, upon mentor approval.
@@ -130,7 +132,12 @@ This document establishes the operational standards for interns participating in
 
 ### 4.3 Confidentiality and Information Security
 
-- Interns are strictly prohibited from disclosing any internal laboratory information—including research plans, progress updates, or lab conditions—to any external parties outside the lab without explicit authorization from their mentor or supervisor.
+Interns are strictly prohibited from **disclosing any internal laboratory information**—including:
+1. research plans
+2. progress updates
+3. lab conditions  
+
+to any external parties outside the lab without explicit authorization from their mentor or supervisor.
 
 > [!CAUTION]
 > Breaches of confidentiality may result in immediate termination of the internship and further disciplinary action.
