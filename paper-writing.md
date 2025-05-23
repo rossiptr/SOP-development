@@ -1,11 +1,17 @@
 # Paper Writing
 
 - [Paper Writing](#paper-writing)
+  - [Notes](#notes)
   - [Tips for Paper Writing](#tips-for-paper-writing)
   - [Tips for Paper Revision](#tips-for-paper-revision)
 
+## Notes
+Click [here](./templates/) to access the best **papers** & **slides** from IEEE.
+
 ## Tips for Paper Writing
+
 **Steps for writing your paper:**
+
 1. Copy the [Template for Paper Submission](https://www.overleaf.com/read/zmrnyqzkkycw "‌") and create one for yourself.
 2. List your contribution at the end of Sec. I
 3. List the scenarios used to demonstrate your results in Sec. IV. For each scenario,
@@ -20,15 +26,17 @@
 6. Write down your system architecture/model and your proposed method
 
 ## Tips for Paper Revision
+
 **Steps for revising the paper:**
+
 1. Copy [Template for Reply to Reviewers' Comments](https://trello.com/1/cards/6473c7be4f016371254389a5/attachments/6473d228f19d06b9063f1288/download/Reply2ReviewersComments_R1.docx "‌") and create one for yourself.
 2. Copy the comments from the decision letter
 3. Reply the comments one-by-one. For each comment,
     - Answer the question precisely
     - List the modifications in response to the comment
 
-
 **Reference:**
-  - [Project Proposal Slide](https://drive.google.com/file/d/1RRmRYWYuV8gX0-lLaGlTfMklsXgcJbTP/view?usp=share_link "‌")
-  - [Template for Reply to Reviewers' Comments](https://trello.com/1/cards/6473c7be4f016371254389a5/attachments/6473d228f19d06b9063f1288/download/Reply2ReviewersComments_R1.docx "‌")
-  - [Ann's Paper to be published on IEEE IoT Journal](https://trello.com/c/NKFhpLDR "‌")
+
+- [Project Proposal Slide](https://drive.google.com/file/d/1RRmRYWYuV8gX0-lLaGlTfMklsXgcJbTP/view?usp=share_link "‌")
+- [Template for Reply to Reviewers' Comments](https://trello.com/1/cards/6473c7be4f016371254389a5/attachments/6473d228f19d06b9063f1288/download/Reply2ReviewersComments_R1.docx "‌")
+- [Ann's Paper to be published on IEEE IoT Journal](https://trello.com/c/NKFhpLDR "‌")
