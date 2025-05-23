@@ -86,8 +86,8 @@ Below is the checklist for the handover process:
 > Requirement 5.2.1.2 applies only to students who have not received approval for their *Chapter IV. Results and Analysis* from the Professor.
 
 - [ ] 5.2.1 Code Review:
-  - [ ] 5.2.1.1 (**Deadline:** D-30 before oral exam) Code and project review during weekly meeting
-  - [ ] 5.2.1.2 (**Deadline:** D-60 before oral exam) Code and project review during weekly meeting (**OPTIONAL**)
+  - [ ] 5.2.1.1 (**DL:** D-30 before oral exam) Code and project review during weekly meeting
+  - [ ] 5.2.1.2 (**DL:** D-60 before oral exam) Code and project review during weekly meeting (**OPTIONAL**)
 - [ ] 5.2.2 Simulation
   - [ ] 5.2.1.1 [RAW Dataset](Pcloud link)
   - [ ] 5.2.1.2 [Experiment results](Pcloud link) (Graphs, Figures)
