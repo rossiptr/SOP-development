@@ -34,14 +34,14 @@ This Standard Operating Procedure (SOP) outlines the requirements and best pract
 
 ---
 
-## 5. Project Handover (Final Year to First Year Student)
+## 5. Laboratory Leaving Procedure
 
 > [!IMPORTANT]
 > On the beginning of 2nd year, each student need to find a 1st year student to handover the project.  
 
 Below is the checklist for the handover process:
 
-**Projects**:
+### 5.1. Projects Handover
 
 - [ ] [IEEE paper report](Overleaf link) - [guide](./paper-writing.md)
 - [ ] [GitHub project repository](GitHub repo link) containing:
@@ -54,14 +54,15 @@ Below is the checklist for the handover process:
       - Message Sequence Chart (MSC) + call flow - Example: [O-DU High](https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-l2/en/latest/overview.html#o-du-high-functionality)
     - [ ] User manual (How to use your tool)
 - [ ] [Demo video](pCloud link) showing deployment and overall running of the project
+- [ ] (**DL: 15th Aug**) Handover review by Ph.D students [Ian/Bimo] (presented by the 1st year student).
 
-**Thesis**:
+### 5.2. Thesis Handover
 
 - [ ] [slide](Google Slides or Overleaf link) (presentation slides for project defense/exam)
 - [ ] [Thesis book](Overleaf link) (full thesis document in Overleaf, ready for submission)
 
 > [!TIP]
-> Present your thesis slide in weekly meeting report since the beginning of 2nd year.
+> Present your **thesis slide** & **handover progress** in weekly meeting report since the beginning of 2nd year.
 
 ---
 
