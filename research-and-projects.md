@@ -32,6 +32,8 @@ This Standard Operating Procedure (SOP) outlines the requirements and best pract
 - Provide a detailed **installation guide** (refer to [NVIDIA CUDA installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)).
 - Include a **user manual** explaining how to use the tool, with example commands, input/output formats, and troubleshooting tips.
 
+---
+
 ## 5. Project Handover (Final Year to First Year Student)
 
 > [!IMPORTANT]
@@ -61,7 +63,12 @@ Below is the checklist for the handover process:
 > [!TIP]
 > Present your thesis slide in weekly meeting report since the beginning of 2nd year.
 
+---
+
 ## 6. Graduation Procedure
+
+> [!WARNING]
+> Check the updated graduation procedure on the [ECE NTUST website](https://www.academic.ntust.edu.tw/p/412-1048-8756.php?Lang=en).
 
 ### Qualifications
 
@@ -106,8 +113,6 @@ Master students who meet graduation regulations can apply for the oral defense. 
 - [ ] Submit a soft and yellow cover of the thesis to the department office
 - [ ] Submit a printed copy of the thesis and the signed e-Thesis Authorization Form (NTUST & NCL) to the library
 - [ ] Complete all steps in the School Leaving Application Form and collect your diploma at the Office of Graduate Studies
-
-> For the latest forms and deadlines, always refer to the official [ECE NTUST Graduation Procedure page](https://ece.ntust.edu.tw/p/412-1017-10490.php?Lang=en).
 
 ---
 
