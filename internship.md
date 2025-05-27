@@ -7,6 +7,8 @@
   - [1. Introduction](#1-introduction)
   - [2. Internship Program Structure](#2-internship-program-structure)
     - [2.1 Internship Phases](#21-internship-phases)
+    - [1. **Probation Period**](#1-probation-period)
+    - [2. **On-site Internship**](#2-on-site-internship)
     - [2.2 Topic Progression](#22-topic-progression)
   - [3. Internship Documentation](#3-internship-documentation)
     - [3.1 Repository and File Structure](#31-repository-and-file-structure)
@@ -47,21 +49,60 @@ This document establishes the operational standards for interns participating in
 > - Internship outside of BMW Lab NTUST is **not** allowed without prior approval from the mentor.
 > - Interns are **not** allowed to work on any other projects during the internship period without prior approval from the mentor.
 
-1. **Probation Period**
+Here’s a refined version of the **Probation Period** and **On-site Internship** sections, with clearer structure, improved grammar, and better consistency in formatting. I've also removed duplicate or ambiguous objective listings and formatted it cleanly for Markdown use:
 
->[!TIP]
-> We suggest the interns can start the probation period before the active semester started in your university.
+---
 
-- Duration: 1–3 months (negotiable, based on your performance).
-- Objective: To assess suitability for formal internship continuation.
-- Tasks include Trello setup, daily activity logging, and mentor-assigned milestones.
+### 1. **Probation Period**
 
-3. **On-site Internship**
-   - Commences post-probation, upon mentor approval.
-   - Requires full-time commitment: Monday to Friday, 09:00–17:00 (Taiwan Time).
-   - Parallel internship engagements are **prohibited** without formal approval.
+> [!TIP]
+> Interns are encouraged to begin the probation period **before the active semester** starts at their home university.
 
-4. **End of Internship**
+1. **Duration**: Typically 1–3 months (negotiable based on performance).
+2. **Weekly Reports**:
+
+   - Submit updates every **Friday by 15:00 (Taiwan Time)**.
+   - Report via both **LINE group** and **Trello board**.
+   - Minimum reporting duration: **12 weeks**.
+3. **Objectives**:
+
+   1. **Background Knowledge Report**:
+
+      - Complete the assigned study materials provided by the lab or company.
+      - Purpose: Ensure the intern has the necessary technical foundation for the assigned topic.
+   2. **Laboratory Research Project Assistance**:
+
+      - Complete the project or topic assigned by the supervisor.
+      - Purpose: Support research collaboration between NTUST and the intern’s home university.
+      - **Note**: Interns are free to continue or change their topic after the probation period. It is **not mandatory** to adopt the probation topic as a Bachelor's thesis.
+
+> [!CAUTION]
+> Failure on fulfilling the probation objectives may result in termination of the internship.
+
+---
+
+### 2. **On-site Internship**
+
+1. **Commencement**:
+
+   - Begins **only after successful probation** and **mentor approval**.
+2. **Work Hours**:
+
+   - Monday to Friday, **09:00–17:00 (Taiwan Time)**.
+3. **Daily Logs**:
+
+   - Must be recorded on the **GitHub repository** and **Trello board**.
+4. **Weekly Reports**:
+
+   - Submit every **Friday by 15:00 (Taiwan Time)** via LINE group.
+5. **Attendance**:
+
+   - Physical presence at BMW-Lab is **mandatory** during work hours.
+6. **Evaluations**:
+
+   - Monthly performance reviews by mentors to assess progress and attitude.
+
+7. **End of Internship**
    - Evaluation includes submission of deliverables, presentation of results, and submission of reflective documentation (e.g., testimonial, IEEE paper) described in [Final Deliverables section](#6-completion-and-final-deliverables).
 
 ### 2.2 Topic Progression
@@ -133,6 +174,7 @@ This document establishes the operational standards for interns participating in
 ### 4.3 Confidentiality and Information Security
 
 Interns are strictly prohibited from **disclosing any internal laboratory information**—including:
+
 1. research plans
 2. progress updates
 3. lab conditions  
