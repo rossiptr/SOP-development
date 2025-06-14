@@ -6,18 +6,17 @@
   - [Table of Contents](#table-of-contents)
   - [1. Introduction](#1-introduction)
   - [2. Internship Program Structure](#2-internship-program-structure)
-    - [2.1 Internship Phases](#21-internship-phases)
-    - [1. **Probation Period**](#1-probation-period)
-    - [2. **On-site Internship**](#2-on-site-internship)
-    - [2.2 Topic Progression](#22-topic-progression)
+    - [2.1. **Probation Period**](#21-probation-period)
+    - [2.2. **On-site Internship**](#22-on-site-internship)
+    - [2.3 Topic Progression](#23-topic-progression)
   - [3. Internship Documentation](#3-internship-documentation)
     - [3.1 Repository and File Structure](#31-repository-and-file-structure)
-    - [3.2 Daily Log Format](#32-daily-log-format)
+    - [3.2 Daily Log and Plan Format](#32-daily-log-and-plan-format)
     - [3.3 Weekly Reporting](#33-weekly-reporting)
   - [4. Communication Protocols](#4-communication-protocols)
     - [4.1 Channels of Communication](#41-channels-of-communication)
-    - [4.2 Etiquette and Conduct](#42-etiquette-and-conduct)
-    - [4.3 Confidentiality and Information Security](#43-confidentiality-and-information-security)
+  - [🛠️ Tools \& Communication Guidelines](#️-tools--communication-guidelines)
+    - [4.2 Confidentiality and Information Security](#42-confidentiality-and-information-security)
   - [5. Industrial Internship Policy](#5-industrial-internship-policy)
     - [5.1 Background Knowledge and Training](#51-background-knowledge-and-training)
     - [5.2 Commitment Expectations](#52-commitment-expectations)
@@ -38,8 +37,6 @@ This document establishes the operational standards for interns participating in
 
 ## 2. Internship Program Structure
 
-### 2.1 Internship Phases
-
 >[!CAUTION]
 >
 > Any violation of following policies may result in immediate termination of the internship.
@@ -49,11 +46,9 @@ This document establishes the operational standards for interns participating in
 > - Internship outside of BMW Lab NTUST is **not** allowed without prior approval from the mentor.
 > - Interns are **not** allowed to work on any other projects during the internship period without prior approval from the mentor.
 
-Here’s a refined version of the **Probation Period** and **On-site Internship** sections, with clearer structure, improved grammar, and better consistency in formatting. I've also removed duplicate or ambiguous objective listings and formatted it cleanly for Markdown use:
-
 ---
 
-### 1. **Probation Period**
+### 2.1. **Probation Period**
 
 > [!TIP]
 > Interns are encouraged to begin the probation period **before the active semester** starts at their home university.
@@ -81,7 +76,7 @@ Here’s a refined version of the **Probation Period** and **On-site Internship*
 
 ---
 
-### 2. **On-site Internship**
+### 2.2. **On-site Internship**
 
 1. **Commencement**:
 
@@ -105,7 +100,7 @@ Here’s a refined version of the **Probation Period** and **On-site Internship*
 7. **End of Internship**
    - Evaluation includes submission of deliverables, presentation of results, and submission of reflective documentation (e.g., testimonial, IEEE paper) described in [Final Deliverables section](#6-completion-and-final-deliverables).
 
-### 2.2 Topic Progression
+### 2.3 Topic Progression
 
 - If an assigned research/technical topic is completed, interns are **required to proactively request a new topic** via the designated LINE group.
 - Lack of initiative may affect continuation status or final assessment.
@@ -121,23 +116,80 @@ Here’s a refined version of the **Probation Period** and **On-site Internship*
   - Topic-based folders for documentation and source files.
   - `./daily-log.md` for detailed progress tracking.
 
-### 3.2 Daily Log Format
+### 3.2 Daily Log and Plan Format
+
+> [!TIP]
+> Use consistent date and time formats (e.g., `yyyy-mm-dd` for dates and `hh:mm–hh:mm` for time ranges) throughout all logs and documentation.
+
+---
 
 ```markdown
-[Table of Contents]
+# 📚 Internship Documentation Guide
 
-### [yyyy-mm-dd]  
-*Short-term Goals*:  
-1. [Milestone 1](Plan reference link in GitHub)  
-2. [Milestone 2](Plan reference link in GitHub)  
+## 📑 Table of Contents
+<!-- (GitHub auto-generates ToC based on headers. You may use a Markdown TOC generator plugin for static ToC if needed.) -->
 
-*Daily Logs*:  
-- `hh:mm-hh:mm`: [Milestone 1 - checklist 1](report reference link in GitHub)  
-- `hh:mm-hh:mm`: [Milestone 1 - checklist 2](report reference link in GitHub)  
-- `hh:mm-hh:mm`: [Milestone 2 - checklist 1](report reference link in GitHub)  
+---
+
+## 🏁 Milestones
+
+### 1. <Milestone 1 Title>
+- [ ] 1.1 <Task 1 Title>
+- [ ] 1.2 <Task 2 Title>
+- [ ] 1.m <Task m Title>
+
+### n. <Milestone n Title>
+- [ ] n.1 <Task 1 Title>
+- [ ] n.2 <Task 2 Title>
+- [ ] n.m <Task m Title>
+
+---
+
+## 📆 Daily Logs
+
+### yyyy-mm-dd
+
+**🎯 Short-term Goal:**  
+1. [Milestone n: <Milestone Title>](<GitHub Plan Link>)
+
+**📝 Daily Logs:**  
+- `hh:mm–hh:mm`: [n.1 <Task 1 Title>](<GitHub Task Link>)  
+- `hh:mm–hh:mm`: [n.2 <Task 2 Title>](<GitHub Task Link>)  
+- `hh:mm–hh:mm`: [n.m <Task m Title>](<GitHub Task Link>)
+
+---
+
+### yyyy-mm-dd
+
+**🎯 Short-term Goal:**  
+1. [Milestone 1: <Milestone Title>](<GitHub Plan Link>)
+
+**📝 Daily Logs:**  
+- `hh:mm–hh:mm`: [1.1 <Task 1 Title>](<GitHub Task Link>)  
+- `hh:mm–hh:mm`: [1.2 <Task 2 Title>](<GitHub Task Link>)  
+- `hh:mm–hh:mm`: [1.m <Task m Title>](<GitHub Task Link>)
 ```
 
+---
+
+> [!NOTE]
+> 💡 **Documentation Rules**
+>
+> 1. **Table of Contents** can be auto-generated by GitHub from headers. Use a plugin if a static ToC is required.
+> 2. Focus on **one milestone per day**. If completed early, proceed to the next milestone.
+> 3. Each **milestone** should be documented as a **separate study note** (`.md` file).
+> 4. Each **task** should be a **section header** (`###`) inside the corresponding milestone note.
+> 5. For every GitHub link reference in the daily log:
+>
+>    * a. Include the **commit tree** link showing the work.
+>    * b. Include the **header anchor** link pointing to the relevant task section in the study note.
+>
+> 🗒️ **GitHub Reference Example**: https://github.com/bmw-ece-ntust/SOP/blob/25a0c1dd623a4ceb0d5855b20167e0d4963bf108/paper-writing.md#tips-for-paper-writing
+
 ### 3.3 Weekly Reporting
+
+> [!TIP]
+> When posting your weekly report, always include direct links to the relevant Trello card or GitHub repository for easy reference by mentors.
 
 - Interns must summarize weekly progress by:
   - Updating Trello (activity and status log).
@@ -157,23 +209,32 @@ Here’s a refined version of the **Probation Period** and **On-site Internship*
 
 ### 4.1 Channels of Communication
 
-1. **Trello** – Used for daily check-ins, task tracking, and progress summaries.  
-2. **GitHub** – Platform for hosting code, documentation, and daily logs.  
+> [!TIP]
+> Always check the messages in the LINE group and Trello board for the latest updates and important announcements.
+
+## 🛠️ Tools & Communication Guidelines
+
+1. **GitHub** – Used for hosting source code, documentation, milestones, and daily logs.  
+2. **Trello** – Serves as the internship dashboard for milestone tracking and automated daily log updates (via GitHub integration/scripting).  
 3. **LINE Group**:  
-   - Main Lab Group: For thesis and academic research.  
-   - Company Group: For industrial project discussions.
+   - **Main Lab Group** – For thesis-related and academic research discussions.  
+   - **Company Group** – For industrial project collaboration and updates.
 
-### 4.2 Etiquette and Conduct
+> [!WARNING]
+> 🔒 **Communication Rules**
+>
+> - All **technical discussions** and **project-related inquiries** must take place in the appropriate LINE group.  
+> - **Private messages** should only be used for personal or sensitive matters.  
+> - Interns **must respond** promptly to all messages and instructions in the LINE group.  
+> - ⚠️ If a mentor initiates a technical discussion in a private message, **interns must redirect the conversation to the LINE group** for transparency and accountability.
 
-- Interns must:
-  1. Actively engage in technical discussions within the LINE group to foster peer learning.
-  2. Acknowledge all messages and instructions with responses or reactions.
-  3. Use **private messages only for personal matters**; technical questions must be raised publicly.
-  4. Acknowledge broadcast announcements via emoji or stickers in the group chat.
 
-### 4.3 Confidentiality and Information Security
+### 4.2 Confidentiality and Information Security
 
-Interns are strictly prohibited from **disclosing any internal laboratory information**—including:
+> [!TIP]
+> If you are unsure whether certain information can be shared externally, always consult your mentor or supervisor before disclosing anything.
+
+Interns are strictly prohibited from **disclosing any internal laboratory information**, including:
 
 1. research plans
 2. progress updates
@@ -182,7 +243,7 @@ Interns are strictly prohibited from **disclosing any internal laboratory inform
 to any external parties outside the lab without explicit authorization from their mentor or supervisor.
 
 > [!CAUTION]
-> Breaches of confidentiality may result in immediate termination of the internship and further disciplinary action.
+> ⚠️ Breaches of confidentiality may result in immediate termination of the internship and further disciplinary action.
 
 ---
 
@@ -202,6 +263,9 @@ to any external parties outside the lab without explicit authorization from thei
 ## 6. Completion and Final Deliverables
 
 ### 6.1 Required Submissions
+
+> [!TIP]
+> Before final submission, use the provided checklist to ensure all deliverables are complete and all documentation links are accessible.
 
 Upon completion of the internship, each intern must submit:
 
