@@ -1,8 +1,8 @@
-# Research and Projects Development SOP
+# Laboratory
 
 This Standard Operating Procedure (SOP) outlines the requirements and best practices for research and development (R&D) projects in the lab. All developers and researchers must adhere to the following guidelines to ensure quality, reproducibility, and smooth handover.
 
-- [Research and Projects Development SOP](#research-and-projects-development-sop)
+- [Laboratory](#laboratory)
   - [1. Repository Management](#1-repository-management)
   - [2. Source Code Standards](#2-source-code-standards)
   - [3. Documentation Requirements](#3-documentation-requirements)
@@ -17,13 +17,13 @@ This Standard Operating Procedure (SOP) outlines the requirements and best pract
       - [After Oral Defense](#after-oral-defense)
     - [Leaving Procedure](#leaving-procedure)
 
-
 ---
 
 ## 1. Repository Management
 
-- **Create a private GitHub repository** to upload your project. Confirm with manager.
-- **Maintain the repository** with source code, documentation, and progress logs.
+- **Create a private [BMW Lab GitHub repository](https://github.com/orgs/bmw-ece-ntust)** to upload your project.   
+  **Note**: Confirm with manager.
+
 - Ensure all code and documentation are pushed to the repository before the end of each workday.
 
 ## 2. Source Code Standards

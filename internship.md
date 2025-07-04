@@ -175,7 +175,6 @@ This document establishes the operational standards for interns participating in
 > [!NOTE]
 > 💡 **Documentation Rules**
 >
-> [!NOTE]
 > 1. Create one **study note** (`.md` file) per **milestone**.
 > 2. Use a single `##` section header for each **task** within a milestone.
 > 3. GitHub can auto-generate a **Table of Contents** from headers. Use a plugin if a static ToC is needed.
