@@ -17,12 +17,16 @@
     - [4.1 Channels of Communication](#41-channels-of-communication)
   - [🛠️ Tools \& Communication Guidelines](#️-tools--communication-guidelines)
     - [4.2 Confidentiality and Information Security](#42-confidentiality-and-information-security)
-  - [5. Industrial Internship Policy](#5-industrial-internship-policy)
-    - [5.1 Background Knowledge and Training](#51-background-knowledge-and-training)
-    - [5.2 Commitment Expectations](#52-commitment-expectations)
-  - [6. Completion and Final Deliverables](#6-completion-and-final-deliverables)
-    - [6.1 Required Submissions](#61-required-submissions)
-    - [6.2 Final Assessments](#62-final-assessments)
+  - [5. Mentoring Intern Candidates](#5-mentoring-intern-candidates)
+    - [5.1 Intern Candidate Overview](#51-intern-candidate-overview)
+    - [5.2 Intern Responsibilities as Mentors](#52-intern-responsibilities-as-mentors)
+    - [5.3 Communication and Documentation Requirements](#53-communication-and-documentation-requirements)
+  - [6. Industrial Internship Policy](#6-industrial-internship-policy)
+    - [6.1 Background Knowledge and Training](#61-background-knowledge-and-training)
+    - [6.2 Commitment Expectations](#62-commitment-expectations)
+  - [7. Completion and Final Deliverables](#7-completion-and-final-deliverables)
+    - [7.1 Required Submissions](#71-required-submissions)
+    - [7.2 Final Assessments](#72-final-assessments)
 
 ---
 
@@ -246,22 +250,85 @@ to any external parties outside the lab without explicit authorization from thei
 
 ---
 
-## 5. Industrial Internship Policy
+## 5. Mentoring Intern Candidates
 
-### 5.1 Background Knowledge and Training
+### 5.1 Intern Candidate Overview
+
+An **intern candidate** (also referred to as an **apprentice**) is an individual who is interested in joining the BMW-Lab NTUST TEEP internship program in the future. These candidates participate in the **Intern Candidate Program** to develop foundational skills and demonstrate their suitability for the program.
+
+**Program Characteristics:**
+
+- **Duration**: 2-6 months
+- **Commitment**: Flexible hours, at least 1 progress log per week
+- **Primary Mentor**: Assigned lab intern
+- **Target Audience**: Undergraduate students in related technical fields interested in becoming master students at NTUST
+
+**Eligibility Criteria:**
+
+- Undergraduate students in related technical fields
+- Interested in joining BMW Lab NTUST TEEP internship program
+- Interested in becoming a master student at NTUST
+
+### 5.2 Intern Responsibilities as Mentors
+
+Current interns may be assigned an **intern candidate apprentice** to mentor during their candidacy period, the interns may give guidance and tasks to the apprentice to help them build foundational skills and also aleviate the workload of the mentor. 
+
+**Intern Mentor Duties:**
+
+- Provide structured learning path for the apprentice
+- Review progress of the apprentice regularly
+- Offer guidance and technical support
+- Prepare apprentice for their future internship
+- Ensure apprentice follows proper documentation and reporting procedures
+
+**Apprentice Responsibilities (guided by intern mentor):**
+
+- Learn foundational knowledge and skills with mentor guidance
+- Create progress logs and weekly reports (study notes, GitHub documentation)
+- Assist in tasks assigned by the mentor
+- Follow the same GitHub daily log format as full interns
+- Determine topics of interest for future research
+
+> [!TIP]
+> Being assigned an intern candidate apprentice is an opportunity to develop leadership skills and contribute to the lab's knowledge transfer process while creating a pipeline of skilled research assistants.
+
+### 5.3 Communication and Documentation Requirements
+
+**Communication Channels:**
+- Mentor-mentee meetings and chat communications
+- **Intern Candidate LINE Group** (separate from main intern group)
+- GitHub Progress log repository
+
+**Documentation Requirements:**
+- Apprentices must follow the same **GitHub Daily Log Format** as established for full interns
+- Weekly progress reports submitted to mentor
+- Minimum 1 progress log update per week
+- Use established milestone and task tracking system
+
+> [!WARNING]
+> **Probationary Nature**: Intern candidates are in a probationary status similar to the intern probation period. They should focus primarily on **foundational knowledge building** and **research skill development** rather than being assigned critical project responsibilities.
+
+> [!CAUTION]
+> **Confidentiality Requirements**: Apprentices are strictly prohibited from disclosing any internal laboratory information to external parties. Breaches may result in immediate termination of apprenticeship, rejection of future BMW Lab applications, and further disciplinary action.
+
+---
+
+## 6. Industrial Internship Policy
+
+### 6.1 Background Knowledge and Training
 
 - Host companies are expected to provide sufficient technical background and mentorship.  
 - If the intern fails to submit a background knowledge study report related to the industrial topic, **NTUST reserves the right to revoke the internship opportunity**.
 
-### 5.2 Commitment Expectations
+### 6.2 Commitment Expectations
 
 - Interns are prohibited from participating in concurrent internships unless formally approved.
 
 ---
 
-## 6. Completion and Final Deliverables
+## 7. Completion and Final Deliverables
 
-### 6.1 Required Submissions
+### 7.1 Required Submissions
 
 > [!TIP]
 > Before final submission, use the provided checklist to ensure all deliverables are complete and all documentation links are accessible.
@@ -287,7 +354,7 @@ Upon completion of the internship, each intern must submit:
 > [!NOTE]
 > Your internship report & Letter of Comlpletion will be issued only after the successful submission of all required documents.
 
-### 6.2 Final Assessments
+### 7.2 Final Assessments
 
 Interns must also complete:
 
