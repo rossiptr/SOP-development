@@ -3,6 +3,13 @@
 - [2 Arrival Day](https://github.com/rossiptr/SOP-development/new/master#2-arrival-day)
 - [3 Settling in](https://github.com/rossiptr/SOP-development/new/master#3-settling-in)
 - [How-To Section](https://github.com/rossiptr/SOP-development/new/master#how-to-section)
+    - [Taiwan Sim Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#taiwan-sim-card)
+    - [Transportation Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#transportation-card)
+    - [YouBike](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#youbike)
+    - [Accommodation](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#accommodation)
+    - [UI Number](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#ui-number)
+    - [Bank Account](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#bank-account)
+    - [Stipend Application](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#stipend-application)
 - [Survival Tips](https://github.com/rossiptr/SOP-development/new/master#survival-tips)
   
 ## 1 Before Departure
