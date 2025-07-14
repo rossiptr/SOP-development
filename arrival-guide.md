@@ -58,11 +58,15 @@ Pro tip: Turn on both AC and fan at night, somehow seems to make the AC card use
 1. Visa Type For the TEEP program
     - Choose **Regular/Visitor Visa** for **Internship purposes**
 2. Visa Requirements
+    - Get LoA from BMW Lab and Taiwan MoE
     - Fill out [Online visa application](https://visawebapp.boca.gov.tw/BOCA_EVISA/)
     - Prepare the [documents needed stated by the ROC](https://www.roc-taiwan.org/uploads/sites/232/2016/07/21.-%E5%8D%B0%E5%B0%BC%E7%B1%8D%E5%9C%A8%E5%AD%B8%E7%94%9F%E5%AF%A6%E7%BF%92%E5%81%9C%E7%95%99%E7%B0%BD%E8%AD%89.pdf)
     - Prepare financial support from your valid Bank that shows financial support of around IDR 30,000,000. This **must** be maintained for 3 months pre-departure.
          - _example_: You leave in April. Bank notes needed from January, February, and March that each show minimum IDR 30,000,000.
-         - Bank statement doesn't have to come from **your** account. But it has to be from a family member in your family card (KK); mother, father, brother, or sister.
+         - Bank statement doesn't have to come from **your** account. But it has to be from a family member in your family card (KK); mother, father, sibling.
+    - Come to TETO with complete documents.
+    - Pay the visa fee  **IDR 750.000**
+    - Wait for the Visa Process (might take up to 10 days, be wary as your application **may be** rejected, and you'll have to reapply again).
  ### Taiwan Sim Card:
 #### Online
 1. Add [INTW ID]() via LINE
