@@ -170,4 +170,5 @@ Update your information in the [Google Form](https://docs.google.com/forms/d/e/1
 
 1. Do not say “China” in here (STRICTLY FORBIDDEN!)
 2. [Traveling recommendations](https://hackmd.io/@aJ2Qz7QfSYeHcBAyLw11Lw/Sy1J-kVdR "‌").
-3. Work hard and play hard :D
+3. [How to interact in everyday dialogues](https://hackmd.io/@qErYj-JkSciV2YmXhTJqEA/S1N1bbfUll)
+4. Work hard and play hard :D
