@@ -1,19 +1,19 @@
 # ARRIVAL GUIDE
-- [1 Before Departure](https://github.com/rossiptr/SOP-development/new/master#1-before-departure)
-- [2 Arrival Day](https://github.com/rossiptr/SOP-development/new/master#2-arrival-day)
-- [3 Settling in](https://github.com/rossiptr/SOP-development/new/master#3-settling-in)
-- [How-To Section](https://github.com/rossiptr/SOP-development/new/master#how-to-section)
-    - [Visa](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#visa)
-    - [Taiwan Sim Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#taiwan-sim-card)
-    - [Transportation Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#transportation-card)
-    - [YouBike](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#youbike)
-    - [Accommodation](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#accommodation)
-    - [UI Number](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#ui-number)
-    - [Bank Account](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#bank-account)
-    - [Stipend Application](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#stipend-application)
-- [Survival Tips](https://github.com/rossiptr/SOP-development/new/master#survival-tips)
+- 1. [Before Departure](https://github.com/rossiptr/SOP-development/new/master#1-before-departure)
+- 2. [Arrival Day](https://github.com/rossiptr/SOP-development/new/master#2-arrival-day)
+- 3. [Settling in](https://github.com/rossiptr/SOP-development/new/master#3-settling-in)
+- 4. [How-To Section](https://github.com/rossiptr/SOP-development/new/master#how-to-section)
+    - 4.1 [Visa](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#visa)
+    - 4.2 [Taiwan Sim Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#taiwan-sim-card)
+    - 4.3 [Transportation Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#transportation-card)
+    - 4.4 [YouBike](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#youbike)
+    - 4.5 [Accommodation](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#accommodation)
+    - 4.6 [UI Number](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#ui-number)
+    - 4.7 [Bank Account](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#bank-account)
+    - 4.8 [Stipend Application](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#stipend-application)
+- 5. [Survival Tips](https://github.com/rossiptr/SOP-development/new/master#survival-tips)
   
-## 1 Before Departure
+## 1. Before Departure
 1. Prepare Mandarin name
     - You can ask ChatGPT etc, make sure to remember!
 2. Prepare your [visa](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#visa) D-30, as they take up to 10 days per proposal and not every proposal is accepted!
@@ -28,7 +28,7 @@
 Pro tip: bring Indomie and bidet!
 
 ---
-## 2 Arrival Day
+## 2. Arrival Day
 At the airport,
 1. Buy an [EZCard](https://github.com/rossiptr/SOP-development/new/master#transportation-card) at 7eleven, not iCash or iPass (EZCard is the most compatible with all of Taiwan)
 2. **DO NOT** activate your SIMcard yet, in the airport and MRT there are free available Wi-Fi, as it might affect your mobile data expiry hour.
@@ -37,7 +37,7 @@ At the airport,
 Note: Don't worry, you will have someone pick you up. :D
 
 ---
-## 3 Settling In
+## 3. Settling In
 1. You will have to prepare the dorm:
     - Buy a mattress
     - Top up AC Card
@@ -52,9 +52,9 @@ Pro tip: Turn on both AC and fan at night, somehow seems to make the AC card use
 4. [Register your activated number in YouBike](https://github.com/rossiptr/SOP-development/new/master#youbike)
 
 ---
-## How-To Section
+## 4. How-To Section
 
-### Visa
+### 4.1 Visa
 1. Visa Type For the TEEP program
     - Choose **Regular/Visitor Visa** for **Internship purposes**
 2. Visa Requirements
@@ -67,7 +67,7 @@ Pro tip: Turn on both AC and fan at night, somehow seems to make the AC card use
     - Come to TETO with complete documents.
     - Pay the visa fee  **IDR 750.000**
     - Wait for the Visa Process (might take up to 10 days, be wary as your application **may be** rejected, and you'll have to reapply again).
- ### Taiwan Sim Card:
+ ### 4.2 Taiwan Sim Card:
 #### Online
 1. Add [INTW ID]() via LINE
 2. Send a picture of your passport and visa
@@ -88,7 +88,7 @@ Pro tip: Turn on both AC and fan at night, somehow seems to make the AC card use
       - Currently: [Ivan Tantio](http://wa.me/886908489336 "‌").
 5. Purchase roaming E-Sim from your original country.
 
-### Transportation Card:
+### 4.3 Transportation Card:
 1. EZCard
 EZCard is a e-money card that is very versatile, it can help you save time in EZCard-enabled stores (like FamilyMart,etc). 
     - Can be bought on local stores, with a price, and also can be topped-up on the same stores.
@@ -98,13 +98,13 @@ EZCard is a e-money card that is very versatile, it can help you save time in EZ
     - i-Pass allows unlimited, free of charge commuting for one month (for $1200). If you commute everyday (not on lab grounds), you might have to consider this option.
     - If you are a lab intern, it's highly recommended to just use EZCard as you can travel short distances for free through YouBike.
 
-### YouBike
+### 4.4 YouBike
 Download YouBike App on [Play Store](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dtw.com.youbike.plus%26hl%3Den&ved=2ahUKEwiMyZ2O86-HAxXRc_UHHTZNBzgQFnoECBkQAQ&usg=AOvVaw16DZW_Y0spFtdONtmLJwPU "‌") or [App Store](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/tw/app/youbike%25E5%25BE%25AE%25E7%25AC%2591%25E5%2596%25AE%25E8%25BB%258A-%25E5%25AE%2598%25E6%2596%25B9%25E7%2589%2588/id1483423095&ved=2ahUKEwiMyZ2O86-HAxXRc_UHHTZNBzgQFnoECCkQAQ&usg=AOvVaw2GXG7otb833bUmTBPC2jZO "‌").
 1. Register yourself using your UI Number as the identification number.
 2. Verify your number (it has to be activated first).
 3. Register your EZCard number to the YouBike App to enable it.
 
-### Accommodation
+### 4.5 Accommodation
 Dormitory facilities are not available this year. Interns must arrange their own accommodation through platforms such as:
 1. [591.com.tw](http://591.com.tw/ "‌") --> usually offers year-long lease.
 2. Facebook Marketplace
@@ -116,7 +116,7 @@ For buying room needs, recommended purchase place:
 2. [Green Store](https://maps.app.goo.gl/UdwgDXAre8YemjYL8 "‌")
 3. [Carrefour at Qizhang](https://maps.app.goo.gl/Rh9b58MUcTMrBvC3A "‌")
 
-### UI Number
+### 4.6 UI Number
 1. Go to [National Immigration Agency](https://maps.app.goo.gl/UjSH7WFFF382XmKi9 "‌") and create your UI Number.
    1. You will need to take queue number first, prepare:
       1. **Passport**;
@@ -127,7 +127,7 @@ For buying room needs, recommended purchase place:
 **Note**: `Come in the morning`, otherwise you will wait a long time or even not get a queue number.
 
 
-### Bank Account:
+### 4.7 Bank Account:
 In order to process any activities related to budget and monetary funds, bank account is needed **for each intern**. Please follow this guide:
 
 1. **Schedule an appointment**, the staff is going to help you to schedule it, try to talk with the one near the entrance.
@@ -150,7 +150,7 @@ In order to process any activities related to budget and monetary funds, bank ac
 
 Otherwise, you can only apply in [Gongguan Post Office](https://maps.app.goo.gl/bUFEuBpNwFp8ReHw5 "‌") (inside Gongguan MRT Exit 3) .
 
-### Stipend Application
+### 4.8 Stipend Application
 
 Once you **finished all the steps above**, Upload the docs below:
 1. Passport
@@ -166,7 +166,7 @@ Update your information in the [Google Form](https://docs.google.com/forms/d/e/1
 
 
 ---
-## Survival Tips!
+## 5. Survival Tips!
 
 1. Do not say “China” in here (STRICTLY FORBIDDEN!)
 2. [Traveling recommendations](https://hackmd.io/@aJ2Qz7QfSYeHcBAyLw11Lw/Sy1J-kVdR "‌").
