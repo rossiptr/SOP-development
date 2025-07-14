@@ -90,67 +90,133 @@ Write your installation/integration plan & status in here:
 ### O-DU System Architecture
 ```mermaid
 graph TD
-    subgraph O-DU
-        subgraph DU APP
-            direction LR
-            subgraph " "
-                direction TB
-                O1[O1 Interface]
-                DUMgr[DU Manager]
-                UEMgr[UE Manager]
-            end
-            
-            Config[Config Handler]
-            
-            subgraph " "
-                direction TB
-                SCTP[SCTP Manager]
-                EGTP[EGTP Manager]
-                ASN1[ASN.1 Codecs]
-            end
-        end
-
-        subgraph L2 Stack
+    subgraph O-DU["O-DU"]
+        subgraph DU_APP["DU APP"]
             direction TB
-            RLC_UL[5G NR RLC UL]
-            RLC_DL[5G NR RLC DL]
+            subgraph O1_MODULE["O1 Interface"]
+                O1_CLIENT["O1 Client<br/>o1_client/"]
+                VES["VES Agent<br/>ves/"]
+                ALARM["Alarm Mgmt<br/>alarm/"]
+                O1_CONFIG["Config Mgmt<br/>config/"]
+            end
             
-            subgraph 5G NR MAC
-                SCH[5g NR SCH]
-                LowerMAC[Lower MAC]
+            CONFIG["Config Handler<br/>du_cfg.c"]
+            
+            subgraph MANAGERS["Management Layer"]
+                DU_MGR["DU Manager<br/>du_mgr.c"]
+                UE_MGR["UE Manager<br/>du_ue_mgr.c"]
+            end
+            
+            subgraph INTERFACES["Interface Handlers"]
+                SCTP_MGR["SCTP Manager<br/>du_sctp.c"]
+                F1AP["F1AP Handler<br/>du_f1ap_msg_hdl.c"]
+                E2AP["E2AP Handler<br/>du_e2ap_msg_hdl.c"]
+            end
+            
+            subgraph CODECS["ASN.1 Codecs"]
+                F1AP_CODEC["F1AP/<br/>codecs"]
+                E2AP_CODEC["E2AP/<br/>codecs"]
+                RRC_CODEC["RRC/<br/>codecs"]
+                COMMON_CODEC["Common/<br/>utilities"]
             end
         end
 
-        Utils[O-DU Utility and Common Functions]
+        subgraph L2_STACK["L2 Stack"]
+            direction TB
+            subgraph RLC_LAYER["5G NR RLC Layer"]
+                RLC_UL["RLC UL<br/>kw_ul_ex_ms.c<br/>kw_amm_ul.c"]
+                RLC_DL["RLC DL<br/>kw_dl_ex_ms.c<br/>kw_amm_dl.c"]
+                RLC_UIM["Upper Interface<br/>kw_uim.c"]
+            end
+            
+            subgraph MAC_LAYER["5G NR MAC Layer"]
+                direction TB
+                MAC_UPR["Upper MAC<br/>mac_upr_inf_api.c<br/>mac_ue_mgr.c"]
+                MAC_SLOT["Slot Processing<br/>mac_slot_ind.c"]
+                LOWER_MAC["Lower MAC<br/>lwr_mac_fsm.c<br/>lwr_mac_handle_phy.c"]
+                
+                subgraph SCH_BLOCK["5G NR Scheduler"]
+                    SCH_MAIN["Main Scheduler<br/>sch.c<br/>sch_common.c"]
+                    SCH_SLOT["Slot Handler<br/>sch_slot_ind.c"]
+                    SCH_UE["UE Manager<br/>sch_ue_mgr.c"]
+                    SCH_UTILS["Utilities<br/>sch_utils.c"]
+                end
+            end
+        end
+
+        subgraph COMMON["Common Modules"]
+            direction LR
+            CM_DEF["Common Definitions<br/>common_def.c"]
+            LRG["Layer Management<br/>lrg.c"]
+            DU_RLC_INF["DU-RLC Interface<br/>du_app_rlc_inf.c"]
+            DU_MAC_INF["DU-MAC Interface<br/>du_app_mac_inf.c"]
+        end
+
+        subgraph MT_UTILS["Multi-Threading"]
+            direction LR
+            MT_SS["System Services<br/>mt_ss.c"]
+            MT_ID["Thread ID<br/>mt_id.c"]
+        end
     end
 
-    %% Define Connections
-    DU_APP <--> L2_Stack
-    DU_APP --> Utils
-    L2_Stack --> Utils
+    %% Define main connections
+    DU_APP <--> L2_STACK
+    DU_APP --> COMMON
+    L2_STACK --> COMMON
+    DU_APP --> MT_UTILS
+    L2_STACK --> MT_UTILS
     
-    %% Internal L2 Stack Connections
-    RLC_UL <--> 5G_NR_MAC
-    RLC_DL <--> 5G_NR_MAC
-    5G_NR_MAC <--> SCH
+    %% Internal L2 connections
+    RLC_LAYER <--> MAC_LAYER
+    MAC_LAYER <--> SCH_BLOCK
+    
+    %% Internal RLC connections
+    RLC_UL <--> RLC_UIM
+    RLC_DL <--> RLC_UIM
+    
+    %% Internal MAC connections
+    MAC_UPR <--> MAC_SLOT
+    MAC_SLOT <--> LOWER_MAC
+    LOWER_MAC <--> SCH_BLOCK
+    
+    %% Internal Scheduler connections
+    SCH_MAIN <--> SCH_SLOT
+    SCH_MAIN <--> SCH_UE
+    SCH_SLOT <--> SCH_UTILS
+    
+    %% O1 internal connections
+    O1_CLIENT <--> VES
+    O1_CLIENT <--> ALARM
+    O1_CLIENT <--> O1_CONFIG
 
-    %% Styling to match the example image
-    style O-DU fill:#f0e6ff,stroke:#b39ddb,stroke-width:2px
+    %% Styling to match the architecture image
+    style O-DU fill:#f0e6ff,stroke:#b39ddb,stroke-width:3px
     style DU_APP fill:#cceeff,stroke:#0077c2,stroke-width:2px
-    style L2_Stack fill:#e8f5e9,stroke:#66bb6a,stroke-width:2px
-    style Config fill:#cceeff,stroke:#0077c2,stroke-width:2px
-    style O1 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
-    style DUMgr fill:#cceeff,stroke:#0077c2,stroke-width:2px
-    style UEMgr fill:#cceeff,stroke:#0077c2,stroke-width:2px
-    style SCTP fill:#fff9c4,stroke:#f9a825,stroke-width:2px
-    style EGTP fill:#dcedc8,stroke:#558b2f,stroke-width:2px
-    style ASN1 fill:#cceeff,stroke:#0077c2,stroke-width:2px
-    style RLC_UL fill:#ffe0b2,stroke:#ef6c00,stroke-width:2px
-    style RLC_DL fill:#b2dfdb,stroke:#00695c,stroke-width:2px
-    style 5G_NR_MAC fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-    style LowerMAC fill:#d1c4e9,stroke:#4527a0,stroke-width:2px
-    style SCH fill:#c8e6c9,stroke:#2e7d32,stroke-width:1px,stroke-dasharray: 5 5
-    style Utils fill:#f5f5f5,stroke:#616161,stroke-width:2px
+    style L2_STACK fill:#e8f5e9,stroke:#66bb6a,stroke-width:2px
+    style COMMON fill:#fff3e0,stroke:#ff8f00,stroke-width:2px
+    style MT_UTILS fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px
+    
+    %% DU APP components
+    style O1_MODULE fill:#ffcdd2,stroke:#c62828,stroke-width:2px
+    style CONFIG fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style MANAGERS fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style INTERFACES fill:#fff9c4,stroke:#f9a825,stroke-width:2px
+    style CODECS fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    
+    %% L2 Stack components
+    style RLC_LAYER fill:#ffe0b2,stroke:#ef6c00,stroke-width:2px
+    style MAC_LAYER fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    style SCH_BLOCK fill:#d1c4e9,stroke:#4527a0,stroke-width:2px,stroke-dasharray: 5 5
+    
+    %% Individual components
+    style RLC_UL fill:#ffcc80,stroke:#e65100,stroke-width:1px
+    style RLC_DL fill:#a5d6a7,stroke:#1b5e20,stroke-width:1px
+    style RLC_UIM fill:#90caf9,stroke:#0d47a1,stroke-width:1px
+    style LOWER_MAC fill:#ce93d8,stroke:#4a148c,stroke-width:1px
+    style O1_CLIENT fill:#ef9a9a,stroke:#b71c1c,stroke-width:1px
+    style VES fill:#f8bbd9,stroke:#880e4f,stroke-width:1px
+    style ALARM fill:#ffab91,stroke:#bf360c,stroke-width:1px
+    style O1_CONFIG fill:#80cbc4,stroke:#004d40,stroke-width:1px
 ```
 
 
@@ -305,6 +371,121 @@ Output Parameters
 ### User Authentication Flow (O-RAN O1 Interface)
 ```mermaid
 sequenceDiagram
+    participant USER as Network Operator
+    participant SMO as SMO/OAM System
+    participant NETCONF as NETCONF Server
+    participant O1_CLIENT as O1 Client Module
+    participant DU_MGR as DU Manager
+    participant AUTH_DB as Authentication DB
+    participant ALARM as Alarm Manager
+    participant VES as VES Agent
+    participant LOG as Audit Logger
+
+    title O-DU User Authentication Flow (O-RAN O1 Interface)
+
+    Note over USER,LOG: Initial Authentication Request
+    USER->>SMO: Login Request (username/password)
+    SMO->>AUTH_DB: Validate Credentials
+    AUTH_DB->>SMO: User Profile & Permissions
+    
+    alt Authentication Success
+        SMO->>NETCONF: Establish NETCONF Session
+        Note right of NETCONF: TCP:830 (NETCONF over SSH)
+        NETCONF->>O1_CLIENT: NETCONF Hello Exchange
+        O1_CLIENT->>NETCONF: Capability Advertisement
+        NETCONF->>SMO: Session Established
+        
+        SMO->>O1_CLIENT: Authentication Token Validation
+        O1_CLIENT->>DU_MGR: Validate O-DU Access Rights
+        DU_MGR->>AUTH_DB: Check Role-Based Permissions
+        AUTH_DB->>DU_MGR: Permission Matrix
+        
+        alt Authorized Access
+            DU_MGR->>O1_CLIENT: Access Granted
+            O1_CLIENT->>SMO: Authentication Success
+            
+            Note over O1_CLIENT,LOG: Security Event Logging
+            O1_CLIENT->>ALARM: Generate Security Event
+            ALARM->>VES: Security Alarm (Authentication Success)
+            VES->>LOG: Audit Log Entry
+            LOG->>VES: Log Confirmed
+            VES->>ALARM: VES Event Sent
+            ALARM->>O1_CLIENT: Security Event Logged
+            
+            SMO->>USER: Login Successful
+            
+            Note over USER,LOG: Authenticated Session Management
+            loop Session Management
+                USER->>SMO: O-DU Management Operations
+                SMO->>NETCONF: NETCONF RPC Request
+                NETCONF->>O1_CLIENT: Validate Session Token
+                O1_CLIENT->>DU_MGR: Check Operation Permissions
+                
+                alt Permission Granted
+                    DU_MGR->>O1_CLIENT: Operation Authorized
+                    O1_CLIENT->>NETCONF: Execute Operation
+                    NETCONF->>SMO: Operation Response
+                    SMO->>USER: Operation Result
+                    
+                    Note right of O1_CLIENT: Log successful operation
+                    O1_CLIENT->>LOG: Operation Audit Log
+                    
+                else Permission Denied
+                    DU_MGR->>O1_CLIENT: Access Denied
+                    O1_CLIENT->>ALARM: Generate Security Violation
+                    ALARM->>VES: Security Alarm (Unauthorized Access)
+                    VES->>LOG: Security Violation Log
+                    LOG->>VES: Violation Logged
+                    VES->>ALARM: Security Alert Sent
+                    ALARM->>O1_CLIENT: Violation Processed
+                    
+                    O1_CLIENT->>NETCONF: Operation Rejected
+                    NETCONF->>SMO: Access Denied Response
+                    SMO->>USER: Operation Unauthorized
+                end
+            end
+            
+        else Unauthorized Access
+            DU_MGR->>O1_CLIENT: Access Denied
+            O1_CLIENT->>ALARM: Security Violation Alert
+            ALARM->>VES: Failed Authentication Alarm
+            VES->>LOG: Failed Auth Audit Log
+            LOG->>VES: Security Log Created
+            VES->>ALARM: Alert Dispatched
+            ALARM->>O1_CLIENT: Security Alert Processed
+            
+            O1_CLIENT->>SMO: Authentication Failed
+            SMO->>USER: Access Denied
+        end
+        
+    else Authentication Failure
+        AUTH_DB->>ALARM: Authentication Failure Event
+        ALARM->>VES: Failed Login Alarm
+        VES->>LOG: Failed Login Audit
+        LOG->>VES: Failure Logged
+        VES->>ALARM: Failure Alert Sent
+        ALARM->>AUTH_DB: Security Event Processed
+        
+        SMO->>USER: Invalid Credentials
+    end
+    
+    Note over USER,LOG: Session Termination
+    USER->>SMO: Logout Request
+    SMO->>NETCONF: Close NETCONF Session
+    NETCONF->>O1_CLIENT: Session Termination
+    O1_CLIENT->>DU_MGR: Invalidate Session Tokens
+    DU_MGR->>O1_CLIENT: Session Cleared
+    O1_CLIENT->>LOG: Session Termination Log
+    LOG->>O1_CLIENT: Logout Recorded
+    O1_CLIENT->>NETCONF: Session Closed
+    NETCONF->>SMO: Session Terminated
+    SMO->>USER: Logout Successful
+```
+
+### Cell Configuration Flow (O-RAN F1 Interface)
+**O-DU Message Sequence Chart**
+```mermaid
+sequenceDiagram
     participant SMO
     participant OCU
     participant DU APP
@@ -364,107 +545,6 @@ sequenceDiagram
     MAC->>ODU_LOW: DL TTI Req[PDCCH]
     MAC->>ODU_LOW: TX TTI Req[PDSCH]
     ODU_LOW->>UE: SIB
-```
-
-
-### Cell Configuration Flow (O-RAN F1 Interface)
-**O-DU Message Sequence Chart**
-```mermaid
-sequenceDiagram
-    participant SMO as SMO/OAM (192.168.100.10)
-    participant O1 as O1 Module (10.0.2.40:830)
-    participant DU_APP as DU APP (10.0.2.10:8080)
-    participant SCTP as SCTP Handler (10.0.2.10)
-    participant OCU as O-CU-CP (10.0.1.10:38472)
-    participant MAC as 5G NR MAC (10.0.2.30:9010)
-    participant SCH as 5G NR SCH (10.0.2.30:9011)
-    participant L_MAC as Lower MAC (10.0.2.30)
-    participant PHY as O-DU Low (10.0.3.10:50001)
-
-    SMO->>+O1: NETCONF Cell Config Request
-    O1->>+DU_APP: Cell Configuration via Unix Socket
-    DU_APP->>+SCTP: F1 Setup Request (Cell List)
-    SCTP->>+OCU: SCTP/F1-C F1 Setup Request
-    OCU-->>-SCTP: F1 Setup Response (Cells to Activate)
-    SCTP-->>-DU_APP: F1 Setup Response
-  
-    DU_APP->>+MAC: Cell Configuration Request
-    MAC->>+SCH: Configure Scheduler
-    SCH-->>-MAC: Scheduler Configured
-    MAC->>+L_MAC: Configure Lower MAC
-    L_MAC->>+PHY: FAPI CONFIG.request
-    PHY-->>-L_MAC: FAPI CONFIG.response
-    L_MAC-->>-MAC: Lower MAC Configured
-    MAC-->>-DU_APP: Cell Configuration Response
-  
-    DU_APP->>+SCTP: gNB DU Config Update
-    SCTP->>+OCU: F1AP gNB DU Config Update
-    OCU-->>-SCTP: gNB DU Config Update ACK
-    SCTP-->>-DU_APP: Config Update ACK
-  
-    DU_APP->>+MAC: Cell Start Request
-    MAC->>+L_MAC: Start Cell Request
-    L_MAC->>+PHY: FAPI START.request
-    PHY-->>-L_MAC: FAPI START.indication
-    PHY->>L_MAC: FAPI SLOT.indication (continuous)
-    L_MAC->>MAC: Slot Indications
-    MAC->>DU_APP: Cell Started Indication
-    DU_APP-->>-O1: Cell Configuration Complete
-    O1-->>-SMO: NETCONF Response - Cell Configured
-  
-    Note over SMO,PHY: Cell is now UP and broadcasting SSB/SIB1
-### UE Attach Flow (O-RAN F1/E2 Interfaces)
-
-```mermaid
-sequenceDiagram
-    participant UE as UE Device
-    participant RU as O-RU (10.0.3.20)
-    participant PHY as O-DU Low (10.0.3.10)
-    participant L_MAC as Lower MAC (10.0.2.30)
-    participant MAC as 5G NR MAC (10.0.2.30:9010)
-    participant RLC as 5G NR RLC (10.0.2.20:9001)
-    participant DU_APP as DU APP (10.0.2.10:8080)
-    participant SCTP as SCTP Handler (10.0.2.10)
-    participant OCU as O-CU-CP (10.0.1.10:38472)
-    participant RIC as Near-RT RIC (192.168.100.20:36422)
-
-    Note over UE,RIC: RACH Procedure
-    UE->>RU: Random Access Preamble
-    RU->>PHY: Fronthaul - RACH Detection
-    PHY->>L_MAC: FAPI RACH.indication
-    L_MAC->>MAC: RACH Indication
-    MAC->>RLC: RACH Data
-    RLC->>DU_APP: Initial UL RRC Message
-  
-    DU_APP->>+SCTP: F1AP Initial UL RRC Message Transfer
-    SCTP->>+OCU: SCTP/F1-C Initial UL RRC Message
-    OCU-->>-SCTP: RRC Setup (via F1AP DL RRC Message Transfer)
-    SCTP-->>-DU_APP: RRC Setup Message
-  
-    DU_APP->>RLC: RRC Setup Message
-    RLC->>MAC: RRC Setup for Scheduling
-    MAC->>L_MAC: Schedule RRC Setup
-    L_MAC->>PHY: FAPI DL_TTI.request (RRC Setup)
-    PHY->>RU: Fronthaul - RRC Setup
-    RU->>UE: RRC Setup
-  
-    Note over UE,RIC: UE Context Setup
-    OCU->>+SCTP: F1AP UE Context Setup Request
-    SCTP->>+DU_APP: UE Context Setup Request
-    DU_APP->>MAC: Create UE Context
-    DU_APP->>RLC: Create UE Context
-    MAC-->>DU_APP: UE Context Created
-    RLC-->>DU_APP: UE Context Created
-    DU_APP-->>-SCTP: UE Context Setup Response
-    SCTP-->>-OCU: F1AP UE Context Setup Response
-  
-    Note over UE,RIC: E2 Reporting
-    DU_APP->>+SCTP: E2AP RIC Indication (UE Attached)
-    SCTP->>+RIC: SCTP/E2AP RIC Indication
-    RIC-->>-SCTP: E2AP Acknowledgment
-    SCTP-->>-DU_APP: E2 Indication Sent
-  
-    Note over UE,RIC: UE is now RRC Connected and ready for data transfer
 ```
 
 ### Configuration
