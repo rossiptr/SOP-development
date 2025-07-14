@@ -3,6 +3,7 @@
 - [2 Arrival Day](https://github.com/rossiptr/SOP-development/new/master#2-arrival-day)
 - [3 Settling in](https://github.com/rossiptr/SOP-development/new/master#3-settling-in)
 - [How-To Section](https://github.com/rossiptr/SOP-development/new/master#how-to-section)
+    - [Visa](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#visa)
     - [Taiwan Sim Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#taiwan-sim-card)
     - [Transportation Card](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#transportation-card)
     - [YouBike](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#youbike)
@@ -15,6 +16,7 @@
 ## 1 Before Departure
 1. Prepare Mandarin name
     - You can ask ChatGPT etc, make sure to remember!
+2. Prepare your [visa](https://github.com/rossiptr/SOP-development/blob/master/arrival-guide.md#visa) D-30, as they take up to 10 days per proposal and not every proposal is accepted!
 2. Make sure your baggage doesn't exceed the limit (spare 2 kg).
 3. Prepare letter from MOE and LoA (printed)
 4. Fill the [Taiwan the Lucky Land](https://5000.taiwan.net.tw/index_en.html) lucky draw max D-1 departure
@@ -28,7 +30,7 @@ Pro tip: bring Indomie and bidet!
 ---
 ## 2 Arrival Day
 At the airport,
-1. Buy an [EZCard](https://github.com/rossiptr/SOP-development/new/master#transportation-card) at 7eleven, not iCash
+1. Buy an [EZCard](https://github.com/rossiptr/SOP-development/new/master#transportation-card) at 7eleven, not iCash or iPass (EZCard is the most compatible with all of Taiwan)
 2. **DO NOT** activate your SIMcard yet, in the airport and MRT there are free available Wi-Fi, as it might affect your mobile data expiry hour.
 3. Go to the lucky draw! (if you fill D-1).
 
@@ -52,7 +54,16 @@ Pro tip: Turn on both AC and fan at night, somehow seems to make the AC card use
 ---
 ## How-To Section
 
-### Taiwan Sim Card:
+### Visa
+1. Visa Type For the TEEP program
+    - Choose **Regular/Visitor Visa** for **Internship purposes**
+2. Visa Requirements
+    - Fill out [Online visa application](https://visawebapp.boca.gov.tw/BOCA_EVISA/)
+    - Prepare the [documents needed stated by the ROC](https://www.roc-taiwan.org/uploads/sites/232/2016/07/21.-%E5%8D%B0%E5%B0%BC%E7%B1%8D%E5%9C%A8%E5%AD%B8%E7%94%9F%E5%AF%A6%E7%BF%92%E5%81%9C%E7%95%99%E7%B0%BD%E8%AD%89.pdf)
+    - Prepare financial support from your valid Bank that shows financial support of around IDR 30,000,000. This **must** be maintained for 3 months pre-departure.
+         - _example_: You leave in April. Bank notes needed from January, February, and March that each show minimum IDR 30,000,000.
+         - Bank statement doesn't have to come from **your** account. But it has to be from a family member in your family card (KK); mother, father, brother, or sister.
+ ### Taiwan Sim Card:
 #### Online
 1. Add [INTW ID]() via LINE
 2. Send a picture of your passport and visa
@@ -155,3 +166,4 @@ Update your information in the [Google Form](https://docs.google.com/forms/d/e/1
 
 1. Do not say “China” in here (STRICTLY FORBIDDEN!)
 2. [Traveling recommendations](https://hackmd.io/@aJ2Qz7QfSYeHcBAyLw11Lw/Sy1J-kVdR "‌").
+3. Work hard and play hard :D
