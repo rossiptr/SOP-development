@@ -130,25 +130,30 @@ For buying room needs, recommended purchase place:
 ### 4.7 Bank Account:
 In order to process any activities related to budget and monetary funds, bank account is needed **for each intern**. Please follow this guide:
 
-1. **Schedule an appointment**, the staff is going to help you to schedule it, try to talk with the one near the entrance.
-2. You will be given a form, fill it as instructed by the staff, prepare:
-   1. Your **own country** ID Card.
-   2. Your **phone number in Taiwan**.
-   3. Your stamp.
-   4. Your passport.
-   5. Your first deposit (the amount is up to you, starts from 100 NTD).
-   6. UI Number
-3. You will be asked to make an **ATM Card**, and **Mobile Banking service**;
+#### Prepare
+   1. ID Card
+   2. Passport
+   3. **Phone number in Taiwan**
+   4. Active email address
+   5. LoA
+   6. First deposit (100NTD-1000NTD)
+   7. Stamp of your Mandarin name
+   8. UI Number
+   9. Student Accommodation Certificate
 
-**Notes:**
+You will have/process 7-9 once you've arrived in Taiwan! Just make sure you have 1-6 at hand.
 
-1. Each bank application takes **60mins per person**, each session **can only take 1 application**. (Plan your schedule)
-2. It is possible to create a bank account from another post office (the National Immigration Agency also has one on the basement), but it is highly recommended to create one at Gongguan since it is the nearest one.
-3. If you're only staying for 2 months, the bank will recommend you to not sign up for mobile banking → mobile banking is **not** mandatory
-4. The **Post Office has an English** speaking counter, so don’t worry!
-5. `Mandarin name` & `create stamp` is for easy application → So, you can apply in any Post Office. Such as in [NTUST](https://maps.app.goo.gl/9Y7WK19PKXRqwyoF9 "‌") or [Immigration Office](https://maps.app.goo.gl/NC1cKinqmYFxQwzM6 "‌"), [Taoyuan Airport](https://maps.app.goo.gl/UxoYrfph2E58oc977 "‌"), [Neihu](https://maps.app.goo.gl/5Wmb31LaonaT1wDg8 "‌"), Post Offices.
-
-Otherwise, you can only apply in [Gongguan Post Office](https://maps.app.goo.gl/bUFEuBpNwFp8ReHw5 "‌") (inside Gongguan MRT Exit 3) .
+#### Procedure
+1. Come in early in the morning, a staff will actively approach to come help scheduling
+2. A staff will give a you a form, fill it as instructed by them
+3. Each bank application takes about 60 minutes per person, and can only take 1 application after another (only 1 english speaking counter).
+4. If you're staying for over 2 months, it's recommended to sign up for mobile banking (they will ask if you'd want to)
+5. There will be an email to your address (not immediate) from First Bank to verify your account. Make sure your email has enough room to receive!
+#### Notes
+- If the staff forgot to ask for your deposit, you should deposit it yourself at the ATM outside, as the government might close down your account if it has 0NTD in it --> you'll have to reopen and repeat the process
+- It is possible to create a bank account from another post office (the National Immigration Agency also has one on the basement), but it is highly recommended to create one at Gongguan since it is the nearest one.
+- Mandarin name` & `create stamp` is for easy application → So, you can apply in any Post Office. Such as in [NTUST](https://maps.app.goo.gl/9Y7WK19PKXRqwyoF9 "‌") or [Immigration Office](https://maps.app.goo.gl/NC1cKinqmYFxQwzM6 "‌"), [Taoyuan Airport](https://maps.app.goo.gl/UxoYrfph2E58oc977 "‌"), [Neihu](https://maps.app.goo.gl/5Wmb31LaonaT1wDg8 "‌"), Post Offices.
+- Otherwise, you can only apply in [Gongguan Post Office](https://maps.app.goo.gl/bUFEuBpNwFp8ReHw5 "‌") (inside Gongguan MRT Exit 3) .
 
 ### 4.8 Stipend Application
 
