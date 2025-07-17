@@ -75,6 +75,8 @@ Our main topic in this year is about Network Digital Twin in Cellular and WiFi.
 ### 4.2 Probation Topics
 Please check the [**Probation Topics**](./topics/README.md) for the latest updates.
 
+---
+
 ## 📝 5. INTERNSHIP APPLICATION
 1. Go through the [**Topics**](#topics) and [**Golden Samples**](#Study-Note-Golden-Samples) sections for General information;
 2. Fill the [**internship submission Form**](https://forms.gle/2GBf4AinKrHY4jyVA);
