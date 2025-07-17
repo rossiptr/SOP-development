@@ -104,20 +104,59 @@ For the internship, we have a standard operational procedure (SOP) that outlines
 
 ## 🏆 SUCCESS STORIES
 
-- **Sep. 2023**: [Ian Joseph Chandra](https://www.linkedin.com/in/ian-joseph-chandra) received a scholarship for his PhD program at NTUST.  
-- **Jan. 2023**: **Muhammad Luthfi** graduated with an `MS degree` from NTUST and now works at [Groundhog, Taiwan](https://www.ghtinc.com/tw/).  
-- **Aug. 2022**: [Muhammad Fadli](https://www.youtube.com/watch?v=9FcyYgl-zsU) and [Achmad Kripton Nugraha](https://hackmd.io/OTRfVk21R5yCd74Ts_H7Tg) graduated with MS degrees from NTUST and secured jobs at [Groundhog, Taiwan](https://www.ghtinc.com/tw/).  
-- **Dec. 2021**: [Wilfrid](https://hackmd.io/_SpJwkihTDCy4f3eAgVI0g) received a scholarship for NTUST's Spring 2022 Master’s Program.  
-- **Jul. 2021**: [**Nadhif Muhammad Rekoputra**](https://hackmd.io/@nadhifmr/BkL2ZrCx7?type=view#) and  [**Derni Ageng**](https://hackmd.io/@Derni/Hkx72g8bQ?type=view) receive the MS degree from NTUST. Nadhif gets a job from [Accton](https://www.accton.com.tw/);  Derni gets a job from [Atayalan](https://www.atayalan.com/) Taiwan.
+<details>
+<summary>Class of 2019</summary>
+
+</details>
+
+
+- [Ian Joseph Chandra](https://www.linkedin.com/in/ian-joseph-chandra) el=MuhammadFadli) (UI, GPA 3.86/4.00, [CV](https://hackmd.io/oiyaEZBDQd6KFPmRgz4qnw?view)), [**Ian Joseph Chandra**](https://drive.google.com/file/d/1iaybjHkuAUaVPBe8xIcw6sZxd3INTcoP/view), (UI, GPA: 3.73/4.00, [CV](https://www.linkedin.com/in/ian-joseph-chandra/))
+  - **Sep 2023**: Received a scholarship for his PhD program at NTUST.
+  - **May 2020**: Got the scholarship for the Fall 2020 Class of Master Program at NTUST.
+- Muhammad Lutfi
+  - **Jan 2023**: Graduated with an `MS degree` from NTUST and now works at [Groundhog, Taiwan](https://www.ghtinc.com/tw/).
+- [Muhammad Fadli](https://www.youtube.com/watch?v=9FcyYgl-zsU), (UI, GPA 3.86/4.00, [CV](https://hackmd.io/oiyaEZBDQd6KFPmRgz4qnw?view))
+  - **Aug 2022**: Graduated with MS degrees from NTUST and secured jobs at [Groundhog, Taiwan](https://www.ghtinc.com/tw/).
+  - **May 2020**: Got the scholarship for the Fall 2020 Class of Master Program at NTUST.
+- [Achmad Kripton Nugraha](https://hackmd.io/OTRfVk21R5yCd74Ts_H7Tg), (UI, GPA: 3.86/4.00, [CV](https://drive.google.com/file/d/12sRm1nTwU23I2lBkw69K3XVqKQbMaCOU/view?usp=sharing))
+  - **Aug 2022**: Graduated with MS degrees from NTUST and secured jobs at [Groundhog, Taiwan](https://www.ghtinc.com/tw/).
+  - **May 2020**: Got the scholarship for the Fall 2020 Class of Master Program at NTUST.
+- [Wilfrid](https://hackmd.io/_SpJwkihTDCy4f3eAgVI0g)
+  - **Dec 2021**: Received a scholarship for NTUST's Spring 2022 Master’s Program.
+- [Nadhif Muhammad Rekoputra](https://hackmd.io/@nadhifmr/BkL2ZrCx7?type=view#) from [2018 Class](#2018-Class)
+  - **Jul 2021**: Received an MS degree from NTUST and secured a job from [Accton](https://www.accton.com.tw/)
+  - **May 2019**: Get the scholarship for the Fall 2019 Class of Master Program at NTUST.
+- [Derni Ageng](https://hackmd.io/@Derni/Hkx72g8bQ?type=view)
+  - **Jul 2021**: Received an MS degree from NTUST and secured a job from [Atayalan](https://www.atayalan.com/) Taiwan.
+  - **May 2019**: Get the scholarship for the Fall 2019 Class of Master Program at NTUST.
+- [Akmal Narendra Sakti](https://drive.google.com/file/d/1LWqLNWBNnWc795nioayIaeidv-AJnKk3/view), (ITB, GPA 3.98/4, [CV](https://1drv.ms/b/s!Aht9OA4OGeodkz7QFy4-LHJpHf81?e=E6Fnva)) from [2020 Class (Remote)](#2020-Class)
+  - **May 2021**: Got the scholarship for the Fall 2021 Class of Master Program at NTUST.
+- [Ferlinda Feliana](https://bit.ly/32iMChV), (UI, GPA 3.75/4, [CV](https://drive.google.com/file/d/1r2MP_dJnbR0yjfSiB--UxmBuf3FQ8dWU/view)) from [2020 Class (Remote)](#2020-Class)
+  - **May 2021**: Got the scholarship for the Fall 2021 Class of Master Program at NTUST.
+-  [Muhammad Wito Malik](https://hackmd.io/@witomalik/BkjFQoVHS) (UI) from [2019 Class](#2019-Class) from [2020 Class (Remote)](#2020-Class)
+    - **Dec 2020**: Got the scholarship for the Spring 2021 Class of Master Program at NTUST. 
+-  [Nguyen Hoai Nam](https://drive.google.com/file/d/1Ao_cXjP8ftgHwE1t9DrXuteaTI7WEIsI/view) ([CV](https://hackmd.io/hY1N_pynRryGYUPMRq7pZA)) from [2020 Class (Remote)](#2020-Class)
+    - **Dec 2020**: Got the scholarship for the Spring 2021 Class of Master Program at NTUST.
 
 <details>
-<summary>more stories...</summary>
+<summary>Class of 2019</summary>
 
-- May. 2021: **[Akmal Narendra Sakti](https://drive.google.com/file/d/1LWqLNWBNnWc795nioayIaeidv-AJnKk3/view)** (ITB, GPA 3.98/4, [CV](https://1drv.ms/b/s!Aht9OA4OGeodkz7QFy4-LHJpHf81?e=E6Fnva)) and **[Ferlinda Feliana](https://bit.ly/32iMChV)** (UI, GPA 3.75/4, [CV](https://drive.google.com/file/d/1r2MP_dJnbR0yjfSiB--UxmBuf3FQ8dWU/view)) from [2020 Class (Remote)](#2020-Class) get the scholarship for the Fall 2021 Class of Master Program at NTUST.
-- Dec. 2020: [**Muhammad Wito Malik**](https://hackmd.io/@witomalik/BkjFQoVHS) (UI) from [2019 Class](#2019-Class) and [**Nguyen Hoai Nam**](https://drive.google.com/file/d/1Ao_cXjP8ftgHwE1t9DrXuteaTI7WEIsI/view) ([CV](https://hackmd.io/hY1N_pynRryGYUPMRq7pZA)), from [2020 Class (Remote)](#2020-Class) get the scholarship for the Spring 2021 Class of Master Program at NTUST. 
-- May. 2020: [**Muhammad Fadli**](https://www.youtube.com/watch?v=9FcyYgl-zsU&ab_channel=MuhammadFadli) (UI, GPA 3.86/4.00, [CV](https://hackmd.io/oiyaEZBDQd6KFPmRgz4qnw?view)), [**Ian Joseph Chandra**](https://drive.google.com/file/d/1iaybjHkuAUaVPBe8xIcw6sZxd3INTcoP/view) (UI, GPA: 3.73/4.00, [CV](https://www.linkedin.com/in/ian-joseph-chandra/)), [**Achmad Kripton Nugraha**](https://hackmd.io/OTRfVk21R5yCd74Ts_H7Tg) (UI, GPA: 3.86/4.00, [CV](https://drive.google.com/file/d/12sRm1nTwU23I2lBkw69K3XVqKQbMaCOU/view?usp=sharing)), [**Luthfi Mufadel**](https://drive.google.com/file/d/1I6ujc4WUGHe7RgDqEXgv-l-c-kmwIt-K/view) (UI, GPA 3.76/4.00, [CV](https://drive.google.com/file/d/1YrKO_avX84GsiW3w3VPmez3fPSkKki1r/view?usp=sharing), [LinkedIn](https://www.linkedin.com/in/luthfimufadel/))from [2019 Class](#2019-Class) get the scholarship for the Fall 2020 Class of Master Program at NTUST.
-- Dec. 2019: [**Jonathan**](https://drive.google.com/file/d/1LvSiZrWK3lsqH0Xp9jLF6TB0FolGXAq4/view) (UI, GPA 3.75/4.00, [CV](https://hackmd.io/@Jon97/BJh2xal4Y)) from [2019 Class](#2019-Class) gets the scholarship for the Spring 2020 Class of Master Program at NTUST.
-- May. 2019: [**Nadhif Muhammad Rekoputra**](https://hackmd.io/@nadhifmr/BkL2ZrCx7?type=view#) (UI), [**Derni Ageng**](https://hackmd.io/@Derni/Hkx72g8bQ?type=view) (UI), and **Aria** (UI) from [2018 Class](#2018-Class) get the scholarship for the Fall 2019 Class of Master Program at NTUST.
+- [Muhammad Fadli](https://www.youtube.com/watch?v=9FcyYgl-zsU), (UI, GPA 3.86/4.00, [CV](https://hackmd.io/oiyaEZBDQd6KFPmRgz4qnw?view))
+  - **Aug 2022**: Graduated with MS degrees from NTUST and secured jobs at [Groundhog, Taiwan](https://www.ghtinc.com/tw/).
+  - **May 2020**: Got the scholarship for the Fall 2020 Class of Master Program at NTUST.
+- [Luthfi Mufadel](https://drive.google.com/file/d/1I6ujc4WUGHe7RgDqEXgv-l-c-kmwIt-K/view) (UI, GPA 3.76/4.00, [CV](https://drive.google.com/file/d/1YrKO_avX84GsiW3w3VPmez3fPSkKki1r/view?usp=sharing), [LinkedIn](https://www.linkedin.com/in/luthfimufadel/))from [2019 Class](#2019-Class)
+  - **May 2020**: Got the scholarship for the Fall 2020 Class of Master Program at NTUST.
+- [Jonathan](https://drive.google.com/file/d/1LvSiZrWK3lsqH0Xp9jLF6TB0FolGXAq4/view) (UI, GPA 3.75/4.00, [CV](https://hackmd.io/@Jon97/BJh2xal4Y)) from [2019 Class](#2019-Class)
+  - **Dec 2019**: Got the scholarship for the Spring 2020 Class of Master Program at NTUST.
+
+</details>
+
+<details>
+<summary>Class of 2018</summary>
+
+  - Aria (UI)
+  - **May 2019**: Got the scholarship for the Fall 2019 Class of Master Program at NTUST.
+
 </details>
 
 ### Admission and Scholarship, NTUST
