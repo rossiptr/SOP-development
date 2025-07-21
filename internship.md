@@ -6,8 +6,8 @@
   - [Table of Contents](#table-of-contents)
   - [1. Introduction](#1-introduction)
   - [2. Internship Program Structure](#2-internship-program-structure)
-    - [2.1. **Probation Period**](#21-probation-period)
-    - [2.2. **On-site Internship**](#22-on-site-internship)
+    - [2.1. Probation Period](#21-probation-period)
+    - [2.2. On-site Internship](#22-on-site-internship)
     - [2.3 Topic Progression](#23-topic-progression)
   - [3. Internship Documentation](#3-internship-documentation)
     - [3.1 Repository and File Structure](#31-repository-and-file-structure)
@@ -32,10 +32,10 @@
 
 ## 1. Introduction
 
-This document establishes the operational standards for interns participating in programs under NTUST supervision, including research-based and industry-based internships. The SOP aims to maintain professional integrity, promote accountability, and enhance technical and collaborative experiences.
+This document establishes the operational standards for interns participating in programs under NTUST supervision, including research-based and industry-based internships. This SOP aims to maintain professional integrity, promote accountability, and enhance technical and collaborative experiences.
 
 > [!NOTE]
-> Regulation stated in this docs will be be effective from the published date and may be updated at any time.
+> Regulation stated in this doc will be effective from the published date and may be updated at any time.
 
 ---
 
@@ -59,18 +59,14 @@ This document establishes the operational standards for interns participating in
 
 1. **Duration**: Typically 1–3 months (negotiable based on performance).
 2. **Weekly Reports**:
-
    - Submit updates every **Friday by 15:00 (Taiwan Time)**.
    - Report via both **LINE group** and **Trello board**.
    - Minimum reporting duration: **12 weeks**.
 3. **Objectives**:
-
    1. **Background Knowledge Report**:
-
       - Complete the assigned study materials provided by the lab or company.
       - Purpose: Ensure the intern has the necessary technical foundation for the assigned topic.
    2. **Laboratory Research Project Assistance**:
-
       - Complete the project or topic assigned by the supervisor.
       - Purpose: Support research collaboration between NTUST and the intern’s home university.
       - **Note**: Interns are free to continue or change their topic after the probation period. It is **not mandatory** to adopt the probation topic as a Bachelor's thesis.
@@ -81,31 +77,22 @@ This document establishes the operational standards for interns participating in
 ---
 
 ### 2.2. **On-site Internship**
-
 1. **Commencement**:
-
-   - Begins **only after successful probation** and **mentor approval**.
+   - Begins **only after** successful probation and **mentor approval**.
 2. **Work Hours**:
-
    - Monday to Friday, **09:00–17:00 (Taiwan Time)**.
 3. **Daily Logs**:
-
    - Must be recorded on the **GitHub repository** and **Trello board**.
 4. **Weekly Reports**:
-
    - Submit every **Friday by 15:00 (Taiwan Time)** via LINE group.
 5. **Attendance**:
-
    - Physical presence at BMW-Lab is **mandatory** during work hours.
 6. **Evaluations**:
-
    - Monthly performance reviews by mentors to assess progress and attitude.
-
 7. **End of Internship**
    - Evaluation includes submission of deliverables, presentation of results, and submission of reflective documentation (e.g., testimonial, IEEE paper) described in [Final Deliverables section](#6-completion-and-final-deliverables).
 
 ### 2.3 Topic Progression
-
 - If an assigned research/technical topic is completed, interns are **required to proactively request a new topic** via the designated LINE group.
 - Lack of initiative may affect continuation status or final assessment.
 
@@ -114,7 +101,6 @@ This document establishes the operational standards for interns participating in
 ## 3. Internship Documentation
 
 ### 3.1 Repository and File Structure
-
 - Interns must establish a GitHub repository and maintain the following:
   - `README.md` with personal profile and project summary.
   - Topic-based folders for documentation and source files.
@@ -131,7 +117,9 @@ This document establishes the operational standards for interns participating in
 # 📚 Internship Documentation Guide
 
 ## 📑 Table of Contents
-<!-- (GitHub auto-generates ToC based on headers. You may use a Markdown TOC generator plugin for static ToC if needed.) -->
+- [1. Header 1](link)
+- [2. Header 2](link)
+    - [2.1 Subheader](link)
 
 ---
 
@@ -206,6 +194,9 @@ This document establishes the operational standards for interns participating in
 🔗 GitHub link (installation/user guide):
 ```
 
+> [!NOTE]
+> Weekly report doesn't have to follow the exact format, but should include all points.
+
 ---
 
 ## 4. Communication Protocols
@@ -228,7 +219,7 @@ This document establishes the operational standards for interns participating in
 >
 > - All **technical discussions** and **project-related inquiries** must take place in the appropriate LINE group.  
 > - **Private messages** should only be used for personal or sensitive matters.  
-> - Interns **must respond** promptly to all messages and instructions in the LINE group.  
+> - Interns **must respond/acknowledge** promptly to all messages and instructions in the LINE group.
 > - ⚠️ If a mentor initiates a technical discussion in a private message, **interns must redirect the conversation to the LINE group** for transparency and accountability.
 
 
@@ -239,9 +230,9 @@ This document establishes the operational standards for interns participating in
 
 Interns are strictly prohibited from **disclosing any internal laboratory information**, including:
 
-1. research plans
-2. progress updates
-3. lab conditions  
+1. Research plans
+2. Progress updates
+3. Lab conditions  
 
 to any external parties outside the lab without explicit authorization from their mentor or supervisor.
 
