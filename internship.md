@@ -15,8 +15,8 @@
     - [3.3 Weekly Reporting](#33-weekly-reporting)
   - [4. Communication Protocols](#4-communication-protocols)
     - [4.1 Channels of Communication](#41-channels-of-communication)
-  - [🛠️ Tools \& Communication Guidelines](#️-tools--communication-guidelines)
-    - [4.2 Confidentiality and Information Security](#42-confidentiality-and-information-security)
+    - [4.2 Tools and Communication Guidelines](#️42-tools--communication-guidelines)
+    - [4.3 Confidentiality and Information Security](#43-confidentiality-and-information-security)
   - [5. Mentoring Intern Candidates](#5-mentoring-intern-candidates)
     - [5.1 Intern Candidate Overview](#51-intern-candidate-overview)
     - [5.2 Intern Responsibilities as Mentors](#52-intern-responsibilities-as-mentors)
@@ -206,7 +206,7 @@ This document establishes the operational standards for interns participating in
 > [!TIP]
 > Always check the messages in the LINE group and Trello board for the latest updates and important announcements.
 
-## 🛠️ Tools & Communication Guidelines
+### 4.2 Tools and Communication Guidelines
 
 1. **GitHub** – Used for hosting source code, documentation, milestones, and daily logs.  
 2. **Trello** – Serves as the internship dashboard for milestone tracking and automated daily log updates (via GitHub integration/scripting).  
@@ -223,7 +223,7 @@ This document establishes the operational standards for interns participating in
 > - ⚠️ If a mentor initiates a technical discussion in a private message, **interns must redirect the conversation to the LINE group** for transparency and accountability.
 
 
-### 4.2 Confidentiality and Information Security
+### 4.3 Confidentiality and Information Security
 
 > [!TIP]
 > If you are unsure whether certain information can be shared externally, always consult your mentor or supervisor before disclosing anything.
